@@ -41,6 +41,17 @@ module.exports = function(grunt) {
 				}
 			}
 		},
+		'postcss': {
+			options: {
+				map: false,
+				processors: [
+					require('autoprefixer')({browsers: ['last 5 version']})
+				]
+			},
+			dist: {
+				src: 'dist/assets/stylesheets/foundation.css'
+			}
+		},
 		'copy': {
 			'build': {
 				'files': [
@@ -150,9 +161,10 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-newer');
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
 	grunt.loadNpmTasks('grunt-contrib-clean');
+	grunt.loadNpmTasks('grunt-postcss');
 
 	/* Define tasks */
-	grunt.registerTask('deploy', ['copy:deploy', 'newer:imagemin:dynamic']);
+	grunt.registerTask('deploy', ['copy:deploy', 'newer:imagemin:dynamic','postcss']);
 	grunt.registerTask('build', ['copy:build', 'sass', 'concat', 'uglify']);
 	grunt.registerTask('default', ['watch']);
 };
