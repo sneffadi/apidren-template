@@ -37,7 +37,7 @@ module.exports = function(grunt) {
 					'outputStyle': 'compressed'
 				},
 				'files': {
-					'assets/stylesheets/foundation.css': 'assets/scss/foundation.scss'
+					'src/assets/stylesheets/foundation.css': 'src/assets/scss/foundation.scss'
 				}
 			}
 		},
