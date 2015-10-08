@@ -1,0 +1,47 @@
+{
+  "name": "SingleProductTemplate",
+  "title": "Single Product Template",
+  "version": "1.0.0",
+  "description": "Single Product Template",
+  "keywords": [
+    "starter theme",
+    "Foundation",
+    "semantic",
+    "mobile first",
+    "customizable",
+    "responsive"
+  ],
+  "license": "MIT",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unkubed/SingleProductTemplate.git"
+  },
+  "devDependencies": {
+    "bower": "~1.4.1",
+    "grunt": "~0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-imagemin": "^0.9.4",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-newer": "^1.1.1",
+    "grunt-sass": "~1.1.0-beta",
+    "grunt-string-replace": "~0.2.7",
+    "node-sass": "~3.3.0",
+    "time-grunt": "~1.1.0"
+  },
+  "scripts": {
+    "build": "grunt build",
+    "grunt": "grunt",
+    "postinstall": "bower install && grunt build",
+    "watch": "grunt watch",
+    "deploy": "grunt deploy"
+  },
+  "dependencies": {
+    "imagemin-gifsicle": "^4.2.0",
+    "imagemin-mozjpeg": "^5.1.0",
+    "imagemin-pngquant": "^4.2.0"
+  }
+}
