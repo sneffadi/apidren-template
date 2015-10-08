@@ -10,9 +10,9 @@ Starter theme based on Foundation 5. It's a starting point for single product si
 
 ### Quick Start
 ```
-$ git clone https://github.com/unkubed/SingleProductTemplate.git
-$ mv SingleProductTemplate yourThemeName
-$ cd yourThemeName
+$ git clone git@bitbucket.org:unkubed/singleproductsite.git
+$ mv singleproductsite yourSiteName
+$ cd yourSiteName
 $ npm install
 ```
 

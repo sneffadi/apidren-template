@@ -15,7 +15,7 @@
   "main": "Gruntfile.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/unkubed/SingleProductTemplate.git"
+    "url": "https://bitbucket.org/unkubed/singleproductsite"
   },
   "devDependencies": {
     "bower": "~1.4.1",
