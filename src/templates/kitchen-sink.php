@@ -28,10 +28,10 @@
 			<hr>
 			<h4 id="block-grid">Block Grid</h4>
 			<ul class="small-block-grid-2 large-block-grid-4">
-				<li><img class="th" src="assets/images/demo/comet-th.jpg" alt=""></li>
-				<li><img class="th" src="assets/images/demo/launch-th.jpg" alt=""></li>
-				<li><img class="th" src="assets/images/demo/space-th.jpg" alt=""></li>
-				<li><img class="th" src="assets/images/demo/spacewalk-th.jpg" alt=""></li>
+				<li><img class="th" src="#" alt=""></li>
+				<li><img class="th" src="#" alt=""></li>
+				<li><img class="th" src="#" alt=""></li>
+				<li><img class="th" src="#" alt=""></li>
 			</ul>
 
 			<hr>
@@ -110,11 +110,11 @@
 			<h4 id="clearing">Clearing</h4>
 			<div>
 				<ul class="clearing-thumbs" data-clearing>
-					<li><a class="th" href="/assets/images/demo/comet.jpg"><img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="assets/images/demo/comet-th-sm.jpg" alt=""></a></li>
-					<li><a class="th" href="/assets/images/demo/earth.jpg"><img src="assets/images/demo/earth-th-sm.jpg" alt=""></a></li>
-					<li><a class="th" href="/assets/images/demo/launch.jpg"><img data-caption="Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus." src="assets/images/demo/launch-th-sm.jpg" alt=""></a></li>
-					<li><a class="th" href="/assets/images/demo/satelite.jpg"><img src="assets/images/demo/satelite-th-sm.jpg" alt=""></a></li>
-					<li><a class="th" href="/assets/images/demo/space.jpg"><img data-caption="Integer posuere erat a ante venenatis dapibus posuere velit aliquet." src="assets/images/demo/space-th-sm.jpg" alt=""></a></li>
+					<li><a class="th" href="/#" alt=""></a></li>
+					<li><a class="th" href="/#" alt=""></a></li>
+					<li><a class="th" href="/#" alt=""></a></li>
+					<li><a class="th" href="/#" alt=""></a></li>
+					<li><a class="th" href="/#" alt=""></a></li>
 				</ul>
 			</div>
 
@@ -176,7 +176,7 @@
 
 			<div class="f-dropdown content medium" data-dropdown-content="" id= "contentDrop">
 				<h4>Title</h4>
-				<p>Some text that people will think is awesome! Some text that people will think is awesome! Some text that people will think is awesome!</p><img src="assets/images/demo/launch.jpg" alt="">
+				<p>Some text that people will think is awesome! Some text that people will think is awesome! Some text that people will think is awesome!</p><img src="#" alt="">
 				<p>Launching a Discovery Mission</p><a class="button" href="#">Button</a>
 			</div>
 
@@ -257,19 +257,19 @@
 				<div class="large-12 columns">
 					<ul id="featured1" data-orbit data-options="timer_speed:5000;">
 						<li>
-							<img src="assets/images/demo/satelite-orbit.jpg" alt=""/>
+							<img src="#" alt=""/>
 							<div class="orbit-caption">
 								Caption One. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 							</div>
 						</li>
 						<li>
-							<img src="assets/images/demo/andromeda-orbit.jpg" alt=""/>
+							<img src="#" alt=""/>
 							<div class="orbit-caption">
 								Caption Two. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 							</div>
 						</li>
 						<li>
-							<img src="assets/images/demo/launch-orbit.jpg" alt=""/>
+							<img src="#" alt=""/>
 							<div class="orbit-caption">
 								Caption Three. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 							</div>
@@ -522,7 +522,7 @@
 
 			<hr>
 			<h4 id="thumbnails">Thumbnails</h4>
-			<p><img class="th" src="assets/images/demo/earth-th-sm.jpg" alt=""><img class="th" src="assets/images/demo/space-th-sm.jpg" alt=""></p>
+			<p><img class="th" src="#" alt=""></p>
 
 			<hr>
 			<h4 id="tooltips">Tooltips</h4>
