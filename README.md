@@ -55,9 +55,9 @@ http://foundation.zurb.com/docs/components/kitchen_sink.html
 
 If you don't use the component, comment it out.
 
-#### /assets/scss/foundation.scss
+#### src/assets/scss/foundation.scss
 Comment out the components the site doesn't use. This will significantly decrease load time. If you don't use fontawesome, be sure to comment it out.
 
-#### /Gruntfile.js
+#### Gruntfile.js
 
 Comment out the scripts the site doesn't use. The will generally start around line 100.  his will significantly decrease load time.
