@@ -138,6 +138,7 @@ module.exports = function(grunt) {
 				}
 			}
 		},
+		clean: ["dist/"],
 	});
 
 	/* Load all npm modules */
@@ -146,9 +147,9 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
-	grunt.loadNpmTasks('grunt-string-replace');
 	grunt.loadNpmTasks('grunt-newer');
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
+	grunt.loadNpmTasks('grunt-contrib-clean');
 
 	/* Define tasks */
 	grunt.registerTask('deploy', ['copy:deploy', 'newer:imagemin:dynamic']);

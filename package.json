@@ -21,6 +21,7 @@
     "bower": "~1.4.1",
     "grunt": "~0.4.5",
     "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-concat": "~0.3.0",
     "grunt-contrib-copy": "~0.4.1",
     "grunt-contrib-imagemin": "^0.9.4",
@@ -28,7 +29,6 @@
     "grunt-contrib-watch": "~0.5.3",
     "grunt-newer": "^1.1.1",
     "grunt-sass": "~1.1.0-beta",
-    "grunt-string-replace": "~0.2.7",
     "node-sass": "~3.3.0",
     "time-grunt": "~1.1.0"
   },
@@ -37,7 +37,8 @@
     "grunt": "grunt",
     "postinstall": "bower install && grunt build",
     "watch": "grunt watch",
-    "deploy": "grunt deploy"
+    "deploy": "grunt deploy",
+    "clean": "grunt clean"
   },
   "dependencies": {
     "imagemin-gifsicle": "^4.2.0",
