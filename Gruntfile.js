@@ -70,19 +70,6 @@ module.exports = function(grunt) {
 				]
 			}
 		},
-		'string-replace': {
-			'fontawesome': {
-				'files': {
-					'assets/fontawesome/scss/_variables.scss': 'assets/fontawesome/scss/_variables.scss'
-				},
-				'options': {
-					'replacements': [{
-						'pattern': '../fonts',
-						'replacement': '../assets/fonts'
-					}]
-				}
-			}
-		},
 		'concat': {
 			'options': {
 				'separator': ';'
@@ -165,6 +152,6 @@ module.exports = function(grunt) {
 
 	/* Define tasks */
 	grunt.registerTask('deploy', ['copy:deploy', 'newer:imagemin:dynamic']);
-	grunt.registerTask('build', ['copy:build', 'string-replace:fontawesome', 'sass', 'concat', 'uglify']);
+	grunt.registerTask('build', ['copy:build', 'sass', 'concat', 'uglify']);
 	grunt.registerTask('default', ['watch']);
 };
