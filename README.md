@@ -29,13 +29,10 @@ $ npm run build
 ```
 ### Compress Files for Deployment
 ```
-$ npm run package
+$ npm run deploy
 ```
 
-### Remove dist folder
-```
-$ npm run clean
-```
+Creates dist (distribution) folder. These are the files you'll want to upload to the server.
 
 ### How to Structure Styles
 - assets/scss/foundation.scss: Imports for Foundation components and your custom styles.

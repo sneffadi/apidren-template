@@ -28,10 +28,10 @@
 			<hr>
 			<h4 id="block-grid">Block Grid</h4>
 			<ul class="small-block-grid-2 large-block-grid-4">
-				<li><img class="th" src="#" alt=""></li>
-				<li><img class="th" src="#" alt=""></li>
-				<li><img class="th" src="#" alt=""></li>
-				<li><img class="th" src="#" alt=""></li>
+				<li><img class="th" src="https://foundationpress.olefredrik.com/wp-content/themes/FoundationPress/assets/images/demo/launch-th.jpg" alt=""></li>
+				<li><img class="th" src="https://foundationpress.olefredrik.com/wp-content/themes/FoundationPress/assets/images/demo/launch-th.jpg" alt=""></li>
+				<li><img class="th" src="https://foundationpress.olefredrik.com/wp-content/themes/FoundationPress/assets/images/demo/launch-th.jpg" alt=""></li>
+				<li><img class="th" src="https://foundationpress.olefredrik.com/wp-content/themes/FoundationPress/assets/images/demo/launch-th.jpg" alt=""></li>
 			</ul>
 
 			<hr>
@@ -522,7 +522,7 @@
 
 			<hr>
 			<h4 id="thumbnails">Thumbnails</h4>
-			<p><img class="th" src="#" alt=""></p>
+			<p><img class="th" src="https://foundationpress.olefredrik.com/wp-content/themes/FoundationPress/assets/images/demo/launch-th.jpg" alt=""></p>
 
 			<hr>
 			<h4 id="tooltips">Tooltips</h4>
