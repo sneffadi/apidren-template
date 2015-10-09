@@ -1,0 +1,8 @@
+# robotstxt.org/
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /terms.php
+Disallow: /privacy.php
+
+User-agent: ia_archiver
+Disallow: /

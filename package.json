@@ -17,7 +17,7 @@
     "type": "git",
     "url": "https://bitbucket.org/unkubed/singleproductsite"
   },
-  "devDependencies": {
+  "gitme": {
     "autoprefixer": "^6.0.3",
     "bower": "~1.4.1",
     "cssnano": "^3.3.1",
