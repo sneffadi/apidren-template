@@ -1,6 +1,7 @@
 module.exports = function(grunt) {
 	// Grunt dependencies
 	require('time-grunt')(grunt);
+	require('load-grunt-tasks')(grunt);
 	var mozjpeg = require('imagemin-mozjpeg');
 	var pngquant = require('imagemin-pngquant');
 	var gifsicle = require('imagemin-gifsicle');
@@ -27,9 +28,6 @@ module.exports = function(grunt) {
 		},
 		'sass': {
 			'options': {
-				// If you can't get source maps to work, run the following command in your terminal:
-				// $ sass scss/foundation.scss:css/foundation.css --sourcemap
-				// (see this link for details: http://thesassway.com/intermediate/using-source-maps-with-sass )
 				'sourceMap': true
 			},
 			'dist': {
@@ -45,7 +43,8 @@ module.exports = function(grunt) {
 			options: {
 				map: false,
 				processors: [
-					require('autoprefixer')({browsers: ['last 5 version']})
+					require('autoprefixer')({browsers: ['last 3 versions', 'ie 8', 'ie 9']}),
+					require('cssnano')()
 				]
 			},
 			dist: {
@@ -151,17 +150,6 @@ module.exports = function(grunt) {
 		},
 		clean: ["dist/"],
 	});
-
-	/* Load all npm modules */
-	grunt.loadNpmTasks('grunt-sass');
-	grunt.loadNpmTasks('grunt-contrib-watch');
-	grunt.loadNpmTasks('grunt-contrib-concat');
-	grunt.loadNpmTasks('grunt-contrib-copy');
-	grunt.loadNpmTasks('grunt-contrib-uglify');
-	grunt.loadNpmTasks('grunt-newer');
-	grunt.loadNpmTasks('grunt-contrib-imagemin');
-	grunt.loadNpmTasks('grunt-contrib-clean');
-	grunt.loadNpmTasks('grunt-postcss');
 
 	/* Define tasks */
 	grunt.registerTask('deploy', ['copy:deploy', 'newer:imagemin:dynamic','postcss']);
