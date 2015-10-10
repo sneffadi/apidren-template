@@ -4,6 +4,8 @@ module.exports = function(grunt) {
 	var mozjpeg = require('imagemin-mozjpeg');
 	var pngquant = require('imagemin-pngquant');
 	var gifsicle = require('imagemin-gifsicle');
+	var imageminSvgo = require('imagemin-svgo');
+
 	/* Configure Grunt */
 	grunt.initConfig({
 		'pkg': grunt.file.readJSON('package.json'),
