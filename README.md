@@ -61,3 +61,14 @@ Comment out the components the site doesn't use. This will significantly decreas
 #### Gruntfile.js
 
 Comment out the scripts the site doesn't use. The will generally start around line 100.  his will significantly decrease load time.
+
+### Ultimate goal for template is to have 2-3 "perfect" modules for the following. This will need to be done with the design department.
+- navs
+- banners
+- ingredient sections
+- guarantees
+- bonus sections
+- buy sections
+- faq sections
+- testimonial sections
+- comparison sections

@@ -123,11 +123,11 @@
 			<h4 id="clearing">Clearing</h4>
 			<div>
 				<ul class="clearing-thumbs" data-clearing>
-					<li><a class="th" href="/#" alt=""></a></li>
-					<li><a class="th" href="/#" alt=""></a></li>
-					<li><a class="th" href="/#" alt=""></a></li>
-					<li><a class="th" href="/#" alt=""></a></li>
-					<li><a class="th" href="/#" alt=""></a></li>
+					<li><a class="th" href="https://foundationpress.olefredrik.com/wp-content/themes/FoundationPress/assets/images/demo/launch-th.jpg" alt=""></a></li>
+					<li><a class="th" href="https://foundationpress.olefredrik.com/wp-content/themes/FoundationPress/assets/images/demo/launch-th.jpg" alt=""></a></li>
+					<li><a class="th" href="https://foundationpress.olefredrik.com/wp-content/themes/FoundationPress/assets/images/demo/launch-th.jpg" alt=""></a></li>
+					<li><a class="th" href="https://foundationpress.olefredrik.com/wp-content/themes/FoundationPress/assets/images/demo/launch-th.jpg" alt=""></a></li>
+					<li><a class="th" href="https://foundationpress.olefredrik.com/wp-content/themes/FoundationPress/assets/images/demo/launch-th.jpg" alt=""></a></li>
 				</ul>
 			</div>
 
@@ -189,7 +189,7 @@
 
 			<div class="f-dropdown content medium" data-dropdown-content="" id= "contentDrop">
 				<h4>Title</h4>
-				<p>Some text that people will think is awesome! Some text that people will think is awesome! Some text that people will think is awesome!</p><img src="#" alt="">
+				<p>Some text that people will think is awesome! Some text that people will think is awesome! Some text that people will think is awesome!</p><img src="https://foundationpress.olefredrik.com/wp-content/themes/FoundationPress/assets/images/demo/launch-th.jpg" alt="">
 				<p>Launching a Discovery Mission</p><a class="button" href="#">Button</a>
 			</div>
 
@@ -270,19 +270,19 @@
 				<div class="large-12 columns">
 					<ul id="featured1" data-orbit data-options="timer_speed:5000;">
 						<li>
-							<img src="#" alt=""/>
+							<img src="https://foundationpress.olefredrik.com/wp-content/themes/FoundationPress/assets/images/demo/launch-th.jpg" alt=""/>
 							<div class="orbit-caption">
 								Caption One. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 							</div>
 						</li>
 						<li>
-							<img src="#" alt=""/>
+							<img src="https://foundationpress.olefredrik.com/wp-content/themes/FoundationPress/assets/images/demo/launch-th.jpg" alt=""/>
 							<div class="orbit-caption">
 								Caption Two. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 							</div>
 						</li>
 						<li>
-							<img src="#" alt=""/>
+							<img src="https://foundationpress.olefredrik.com/wp-content/themes/FoundationPress/assets/images/demo/launch-th.jpg" alt=""/>
 							<div class="orbit-caption">
 								Caption Three. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 							</div>
@@ -402,9 +402,9 @@
     <a href="#panel1a">Accordion 1</a>
     <div id="panel1a" class="content active">
       <ul class="small-block-grid-2 large-block-grid-3 ">
-        <li><img src="assets/images/demo/350x150.png" alt="placeholder image"></li>
-        <li><img src="assets/images/demo/350x150.png" alt="placeholder image"></li>
-        <li><img src="assets/images/demo/350x150.png" alt="placeholder image"></li>
+        <li><img src="https://foundationpress.olefredrik.com/wp-content/themes/FoundationPress/assets/images/demo/launch-th.jpg" alt="placeholder image"></li>
+        <li><img src="https://foundationpress.olefredrik.com/wp-content/themes/FoundationPress/assets/images/demo/launch-th.jpg" alt="placeholder image"></li>
+        <li><img src="https://foundationpress.olefredrik.com/wp-content/themes/FoundationPress/assets/images/demo/launch-th.jpg" alt="placeholder image"></li>
       </ul>
     </div>
   </li>
