@@ -10,7 +10,7 @@
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/icons/apple-touch-icon-114x114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/icons/apple-touch-icon-72x72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="assets/images/icons/apple-touch-icon-precomposed.png">
-        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,300' rel='stylesheet' type='text/css'>
+        <?php get_fonts(); ?>
         <link rel="stylesheet" type="text/css" href="assets/stylesheets/foundation.css">
         <script src="assets/javascript/vendor/modernizr.js"></script>
         <script src="assets/javascript/vendor/fastclick.js"></script>
