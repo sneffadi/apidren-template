@@ -33,32 +33,45 @@ module.exports = function(grunt) {
                     outputStyle: 'expanded'
                 },
                 files: {
-                    'src/assets/stylesheets/foundation.css':'src/assets/scss/foundation.scss',
+                    'src/assets/stylesheets/foundation.css': 'src/assets/scss/foundation.scss',
                 }
             },
-            'deploy': {
+            'dist': {
                 options: {
                     outputStyle: 'compressed'
                 },
                 files: {
-                    'src/assets/stylesheets/foundation.css':'src/assets/scss/foundation.scss',
+                    'src/assets/stylesheets/foundation.min.css': 'src/assets/scss/foundation.scss',
                 }
             },
         },
-        'postcss': {
-            'options': {
-                map: false,
-                processors: [
-                    require('autoprefixer')({
-                        browsers: ['last 3 versions', 'ie 8', 'ie 9']
-                    }),
-                    require('cssnano')()
-                ]
-            },
-            'deploy': {
-                src: 'dist/assets/stylesheets/foundation.css'
+        'string-replace': {
+
+            'dist': {
+                files: {
+                    'dist/parts/header.php': 'dist/parts/header.php',
+                    'dist/parts/footer.php': 'dist/parts/footer.php',
+                },
+
+                options: {
+                    replacements: [{
+                        pattern: 'foundation.css',
+                        replacement: 'foundation.min.css'
+                    },
+                    {
+                        pattern: 'foundation.js',
+                        replacement: 'foundation.min.js'
+                    },
+                    {
+                        pattern: 'assets/javascript/vendor/jquery.js',
+                        replacement: '//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'
+                    }]
+                }
+
             }
+
         },
+
         'copy': {
             'build': {
                 'files': [{
@@ -74,7 +87,7 @@ module.exports = function(grunt) {
                     'dest': 'src/assets/fonts/'
                 }]
             },
-            'deploy': {
+            'dist': {
                 'files': [{
                         'expand': true,
                         'cwd': 'src/',
@@ -118,9 +131,9 @@ module.exports = function(grunt) {
         'concat': {
             'options': {
                 'separator': ';',
-                'sourceMap' : true
+                'sourceMap': true
             },
-            'deploy': {
+            'dist': {
                 'src': [
                     // Include vendor scripts
                     'src/assets/components/foundation/js/vendor/placeholder.js',
@@ -151,9 +164,9 @@ module.exports = function(grunt) {
             }
         },
         'uglify': {
-            'deploy': {
+            'dist': {
                 'files': {
-                    'src/assets/javascript/foundation.js': ['src/assets/javascript/foundation.js']
+                    'src/assets/javascript/foundation.min.js': ['src/assets/javascript/foundation.js']
                 },
             },
             'dev': {
@@ -204,10 +217,10 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-newer');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-clean');
-    grunt.loadNpmTasks('grunt-postcss');
+    grunt.loadNpmTasks('grunt-string-replace');
 
     /* Define tasks */
-    grunt.registerTask('deploy', ['postcss', 'sass:deploy',  'concat', 'uglify:deploy', 'copy:deploy', 'newer:imagemin:dynamic']);
+    grunt.registerTask('deploy', ['sass:dist', 'concat', 'uglify:dist', 'copy:dist', 'newer:imagemin:dynamic', 'string-replace:dist']);
     grunt.registerTask('build', ['copy:build', 'sass:dev', 'concat', 'uglify:dev']);
     grunt.registerTask('default', ['watch']);
 };
