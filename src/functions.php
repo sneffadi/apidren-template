@@ -13,7 +13,7 @@
     }
     function get_ga( $gaID = null ) {
         global $gaID;
-        if (isset($gaID)) { ?>
+        if (!empty($gaID)) { ?>
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -56,10 +56,10 @@
     }
     function get_fonts() {
         global $googlefont, $typekit;
-        if ( isset( $googlefont ) ) { ?>
+        if ( !empty( $googlefont )) { ?>
             <link href='https://fonts.googleapis.com/css?family=<?php echo $googlefont; ?>' rel='stylesheet' type='text/css'>
         <?php }
-        if ( isset( $typekit ) ) { ?>
+        if ( !empty( $typekit ) ) { ?>
             <script type="text/javascript" src="//use.typekit.net/<?php echo $typekit; ?>.js"></script>
             <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
         <?php }
