@@ -1,0 +1,24 @@
+#faq {
+    .q {
+        font-weight: 600;
+
+        &:after {
+            content: "[+]";
+        }
+
+        &.open {
+            &:after {
+                content: "[-]";
+            }
+        }
+    }
+
+    .a {
+        margin: 0 0 rem-calc(16) 0;
+        display: none;
+    }
+
+    .see-all {
+        font-size: rem-calc(12);
+    }
+}

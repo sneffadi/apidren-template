@@ -1,3 +1,4 @@
+<button class="go-to-buy-section">see pricing</button>
 
 <div class="row">
 	<div class="small-12 large-12 columns" role="main">
@@ -399,34 +400,32 @@
 			<hr>
 			<h4 id="accordion">Accordion</h4>
 			<ul class="accordion" data-accordion="">
-  <li class="accordion-navigation active">
-    <a href="#panel1a">Accordion 1</a>
-    <div id="panel1a" class="content active">
-      <ul class="small-block-grid-2 large-block-grid-3 ">
-        <li><img src="https://foundationpress.olefredrik.com/wp-content/themes/FoundationPress/assets/images/demo/launch-th.jpg" alt="placeholder image"></li>
-        <li><img src="https://foundationpress.olefredrik.com/wp-content/themes/FoundationPress/assets/images/demo/launch-th.jpg" alt="placeholder image"></li>
-        <li><img src="https://foundationpress.olefredrik.com/wp-content/themes/FoundationPress/assets/images/demo/launch-th.jpg" alt="placeholder image"></li>
-      </ul>
-    </div>
-  </li>
-  <li class="accordion-navigation">
-    <a href="#panel2a">Accordion 2</a>
-    <div id="panel2a" class="content">
-      <div class="row">
-        <div class="small-6 columns">
-          <p>Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <div class="small-6 columns">
-        <img src="assets/images/demo/350x150.png" alt="placeholder image">
-      </div>
-    </div>
-  </div></li>
-  <li class="accordion-navigation">
-    <a href="#panel3a">Accordion 3</a>
-    <div id="panel3a" class="content">
-      Panel 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </div>
-  </li>
+				<li class="accordion-navigation active">
+					<a href="#panel1a">Accordion 1</a>
+					<div id="panel1a" class="content active">
+						<ul class="small-block-grid-2 large-block-grid-3 ">
+							<li>Answer</li>
+							<li>Answer</li>
+							<li>Answer</li>
+						</ul>
+					</div>
+  				</li>
+				<li class="accordion-navigation">
+				<a href="#panel2a">Accordion 2</a>
+				<div id="panel2a" class="content">
+					<div class="row">
+							<div class="small-12 columns">
+								<p>Answer</p>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="accordion-navigation">
+					<a href="#panel3a">Accordion 3</a>
+					<div id="panel3a" class="content">
+					Panel 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+					</div>
+				</li>
 </ul>
 
 			<hr>
@@ -685,6 +684,9 @@
 			</ul>
 
 			<hr>
+			<div id="buy-section">
+				BUY section
+			</div>
 			<h4 id="visibility-classes">Visibility Classes</h4>
 			<h5 id="screen-size-visibility-control-show-">Screen Size Visibility Control (Show)</h5>
 			<p>The following text should describe the screen size you&#39;re using:</p>
