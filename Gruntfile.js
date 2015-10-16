@@ -81,6 +81,9 @@ module.exports = function(grunt) {
                     'flatten': true,
                     'dest': 'src/assets/javascript/vendor/'
                 }, {
+                    'src': 'src/assets/components/jquery.scrollTo/jquery.scrollTo.min.js',
+                    'dest': 'src/assets/javascript/vendor/jquery.scrollTo.min.js'
+                }, {
                     'expand': true,
                     'cwd': 'src/assets/components/fontawesome/fonts',
                     'src': ['**'],
@@ -157,6 +160,7 @@ module.exports = function(grunt) {
                     'src/assets/components/foundation/js/foundation/foundation.tab.js',
                     'src/assets/components/foundation/js/foundation/foundation.tooltip.js',
                     'src/assets/components/foundation/js/foundation/foundation.topbar.js',
+                    'src/assets/components/jquery.scrollTo/jquery.scrollTo.min.js',
                     'src/assets/javascript/custom/*.js'
                 ],
                 // Finally, concatinate all the files above into one single file

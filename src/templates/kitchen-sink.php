@@ -196,7 +196,6 @@
 			<hr>
 			<h4 id="flex-video">Flex Video</h4>
 			<div class="flex-video">
-				<iframe width="420" height="315" src="https://www.youtube.com/embed/Ogmrl9Yu9sQ" frameborder="0" allowfullscreen></iframe>
 			</div>
 
 			<hr>
@@ -345,6 +344,9 @@
 			<div class="nice secondary progress"><span class="meter" style="width: 50%"></span></div>
 
 			<hr>
+			<a name="modal"></a>
+			<h5 data-magellan-destination="modal">Awesome modal Goodness</h5>
+
 			<h4 id="reveal">Reveal</h4>
 			<a href="#" data-reveal-id="firstModal" class="radius button">Example Modal&hellip;</a>
 			<a href="#" data-reveal-id="videoModal" class="radius button">Example Modal w/Video&hellip;</a>
@@ -366,7 +368,6 @@
 			<div id="videoModal" class="reveal-modal large" data-reveal>
 				<h2>This modal has video</h2>
 				<div class="flex-video">
-						<iframe width="420" height="315" src="//www.youtube.com/embed/aiBt44rrslw" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<a class="close-reveal-modal">&#215;</a>
 			</div>
