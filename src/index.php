@@ -10,8 +10,27 @@ get_header(); ?>
 
 //php include 'templates/kitchen-sink.php';
 
+
 ?>
 
+
+        <div id="testimonials">
+            <div class="testomonial">
+
+            </div> <!-- / .testomonial -->
+            <div class="testomonial">
+
+            </div> <!-- / .testomonial -->
+            <div class="testomonial">
+
+            </div> <!-- / .testomonial -->
+            <div class="testomonial">
+
+            </div> <!-- / .testomonial -->
+            <div class="testomonial">
+
+            </div> <!-- / .testomonial -->
+        </div> <!-- /#testimonials  -->
         <div id="faq" class="expandable">
             <h3>Frequently Asked Questions  <span class="show-hide-all" data-text-swap="Hide All [-]" data-text-original="Show All [+]"></span></h3>
 
@@ -104,4 +123,5 @@ get_header(); ?>
         </div> <!-- /#faq  -->
     </div> <!-- / .columns -->
 </div> <!-- / .row -->
-<?php get_footer(); ?>
+<?php
+get_footer(); ?>

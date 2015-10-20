@@ -68,12 +68,22 @@ $topbar-link-bg-color-hover: $jet;
 $topbar-link-bg-active: $jet;
 $topbar-link-bg-active-hover: scale-color($jet, $lightness: -14%);
 
-//FAQ Section
-$faq-format: "expandable"; // expanded or expandable
+/*===========================================
+=            TESTIMONIAL SECTION            =
+===========================================*/
+
+/*=============================================
+=            FAQ SECTION                     =
+=============================================*/
+
+// $faq-format is a mixin (function) that determines the format. It accepts "expanded" or "expandable".
+$faq-format: "expandable";
 $faq-bg: $concrete;
 $faq-border-color: $mercury;
 
-// Media query breakpoints
+/*=============================================
+=            Media Queries                   =
+=============================================*/
 $small-breakpoint: em-calc(640);
 $medium-breakpoint: em-calc(1024);
 $large-breakpoint: em-calc(1440);

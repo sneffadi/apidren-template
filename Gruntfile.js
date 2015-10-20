@@ -126,6 +126,9 @@ module.exports = function(grunt) {
                         'cwd': 'src/files/',
                         'src': '*',
                         'dest': 'dist/'
+                    }, {
+                        'src': 'src/files/.htaccess-dev',
+                        'dest': 'dist/.htaccess'
                     }
 
                 ]
