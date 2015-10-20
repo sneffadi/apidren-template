@@ -21,8 +21,10 @@ $ghost: #FAFAFA;
 $snow: #F9F9F9;
 $vapor: #F6F6F6;
 $white-smoke: #F5F5F5;
+$concrete: #F3F3F3;
 $silver: #EFEFEF;
 $smoke: #EEEEEE;
+$mercury: #E1E1E1;
 $gainsboro: #DDDDDD;
 $iron: #CCCCCC;
 $base: #AAAAAA;
@@ -65,6 +67,10 @@ $topbar-link-bg-hover: $jet;
 $topbar-link-bg-color-hover: $jet;
 $topbar-link-bg-active: $jet;
 $topbar-link-bg-active-hover: scale-color($jet, $lightness: -14%);
+
+//FAQ Section
+$faq-bg: $concrete;
+$faq-border-color: $mercury;
 
 // Media query breakpoints
 $small-breakpoint: em-calc(640);

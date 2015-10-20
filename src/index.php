@@ -1,20 +1,27 @@
-<?php require_once( "load.php" );?>
-<?php get_header();?>
+<?php
+require_once ("load.php"); ?>
+<?php
+get_header(); ?>
 
 
 <div class="row">
     <div class="small-12 columns">
-        <?php include 'templates/kitchen-sink.php';?>
+        <?php
+
+//php include 'templates/kitchen-sink.php';
+
+?>
 
         <div id="faq">
-            <h3>Frequently Asked Questions</h3>
-            <!-- <div class="text-swap" data-text-swap="Hide All [-]">Show All [+]</div> -->
+            <h3>Frequently Asked Questions  <span class="show-hide-all" data-text-swap="Hide All [-]" data-text-original="Show All [+]"></span></h3>
+
             <div class="row">
-                <div class="small-6 columns">
+                <div class="small-12 medium-6 columns">
                     <h5>Product Questions</h5>
                     <div class="q-a">
                         <div class="q">
                             Question?
+                            <span class="show-hide" data-text-swap="[-]" data-text-original="[+]"></span>
                         </div> <!-- / .qu -->
                         <div class="a">
                             Answer
@@ -23,6 +30,7 @@
                     <div class="q-a">
                         <div class="q">
                             Question?
+                            <span class="show-hide" data-text-swap="[-]" data-text-original="[+]"></span>
                         </div> <!-- / .qu -->
                         <div class="a">
                             Answer
@@ -31,6 +39,7 @@
                     <div class="q-a">
                         <div class="q">
                             Question?
+                            <span class="show-hide" data-text-swap="[-]" data-text-original="[+]"></span>
                         </div> <!-- / .qu -->
                         <div class="a">
                             Answer
@@ -39,6 +48,7 @@
                     <div class="q-a">
                         <div class="q">
                             Question?
+                            <span class="show-hide" data-text-swap="[-]" data-text-original="[+]"></span>
                         </div> <!-- / .qu -->
                         <div class="a">
                             Answer
@@ -50,6 +60,7 @@
                     <div class="q-a">
                         <div class="q">
                             Question?
+                            <span class="show-hide" data-text-swap="[-]" data-text-original="[+]"></span>
                         </div> <!-- / .qu -->
                         <div class="a">
                             Answer
@@ -58,6 +69,7 @@
                     <div class="q-a">
                         <div class="q">
                             Question?
+                            <span class="show-hide" data-text-swap="[-]" data-text-original="[+]"></span>
                         </div> <!-- / .qu -->
                         <div class="a">
                             Answer
@@ -66,6 +78,7 @@
                     <div class="q-a">
                         <div class="q">
                             Question?
+                            <span class="show-hide" data-text-swap="[-]" data-text-original="[+]"></span>
                         </div> <!-- / .qu -->
                         <div class="a">
                             Answer
@@ -74,6 +87,7 @@
                     <div class="q-a">
                         <div class="q">
                             Question?
+                            <span class="show-hide" data-text-swap="[-]" data-text-original="[+]"></span>
                         </div> <!-- / .qu -->
                         <div class="a">
                             Answer
@@ -81,9 +95,9 @@
                     </div> <!-- / .q-a -->
                 </div> <!-- / .columns -->
                 <div class="small-12 columns">
-                    <h5>Still have questions?
+                    <p class="contact">Still have questions?
                         <a href="http://product.dev/src/parts/contact.php" data-reveal-ajax="true" data-reveal-id="support" >Contact Our Support Team</a>
-                    </h5>
+                    </p>
                     <div id="support" class="reveal-modal" data-reveal></div><!-- / #support keep empty -->
                 </div> <!-- / .columns -->
             </div> <!-- / .row -->
@@ -91,4 +105,5 @@
 
     </div> <!-- / .columns -->
 </div> <!-- / .row -->
-<?php get_footer();?>
+<?php
+get_footer(); ?>
