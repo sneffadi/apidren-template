@@ -69,6 +69,7 @@ $topbar-link-bg-active: $jet;
 $topbar-link-bg-active-hover: scale-color($jet, $lightness: -14%);
 
 //FAQ Section
+$faq-format: "expandable"; // expanded or expandable
 $faq-bg: $concrete;
 $faq-border-color: $mercury;
 

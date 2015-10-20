@@ -12,7 +12,7 @@ get_header(); ?>
 
 ?>
 
-        <div id="faq">
+        <div id="faq" class="expandable">
             <h3>Frequently Asked Questions  <span class="show-hide-all" data-text-swap="Hide All [-]" data-text-original="Show All [+]"></span></h3>
 
             <div class="row">
@@ -98,12 +98,10 @@ get_header(); ?>
                     <p class="contact">Still have questions?
                         <a href="http://product.dev/src/parts/contact.php" data-reveal-ajax="true" data-reveal-id="support" >Contact Our Support Team</a>
                     </p>
-                    <div id="support" class="reveal-modal" data-reveal></div><!-- / #support keep empty -->
+                    <div id="support" class="reveal-modal medium" data-reveal></div><!-- / #support keep empty -->
                 </div> <!-- / .columns -->
             </div> <!-- / .row -->
         </div> <!-- /#faq  -->
-
     </div> <!-- / .columns -->
 </div> <!-- / .row -->
-<?php
-get_footer(); ?>
+<?php get_footer(); ?>

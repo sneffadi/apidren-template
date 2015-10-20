@@ -1,48 +1,83 @@
-#faq {
-    .show-hide-all {
-        font-size: rem-calc(16);
-        float: right;
-        margin: rem-calc(9) 0 0 0;
-
-        &:hover {
-            cursor: pointer;
-        }
-    }
-
-    .q-a {
-        background: $faq-bg;
-        padding: rem-calc(10);
-        border-width: rem-calc(1) rem-calc(1) 0 rem-calc(1);
-        border-color: $faq-border-color;
-        border-style: solid;
-
-        &:last-child {
-            border-bottom: rem-calc(1) $faq-border-color solid;
-        }
-
-        &:hover {
-            cursor: pointer;
-        }
-    }
-
-    .q {
-        font-weight: 600;
-
-        .show-hide {
+@mixin faqs($faq-format) {
+    @if $faq-format == "expandable" {
+        .show-hide-all {
+            font-size: rem-calc(16);
             float: right;
+            margin: rem-calc(9) 0 0 0;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .q-a {
+            background: $faq-bg;
+            padding: rem-calc(10);
+            border-width: rem-calc(1) rem-calc(1) 0 rem-calc(1);
+            border-color: $faq-border-color;
+            border-style: solid;
+
+            &:last-child {
+                border-bottom: rem-calc(1) $faq-border-color solid;
+            }
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .q {
+            font-weight: 600;
+
+            .show-hide {
+                float: right;
+            }
+        }
+
+        .a {
+            margin: 0 0 rem-calc(6) 0;
+            display: none;
+        }
+
+        .see-all {
+            font-size: rem-calc(12);
+        }
+
+        .contact {
+            margin: rem-calc(16) 0 0 0;
         }
     }
+    @else if $faq-format == "expanded" {
+        .show-hide-all {
+            display: none;
+        }
 
-    .a {
-        margin: 0 0 rem-calc(6) 0;
-        display: none;
-    }
+        .q-a {
+            margin: 0 0 rem-calc(16) 0;
+        }
 
-    .see-all {
-        font-size: rem-calc(12);
-    }
+        .q {
+            font-weight: 600;
 
-    .contact {
-        margin: rem-calc(16) 0 0 0;
+            .show-hide {
+                display: none;
+            }
+        }
+
+        .a {
+            margin: 0 0 rem-calc(16) 0;
+        }
+
+        .see-all {
+            display: none;
+        }
+
+        .contact {
+            margin: 0 0 0 0;
+        }
     }
+}
+
+#faq {
+    @include faqs($faq-format);
 }
