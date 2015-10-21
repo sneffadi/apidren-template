@@ -5,6 +5,10 @@
             float: right;
             margin: rem-calc(9) 0 0 0;
 
+            @media #{$small-only} {
+                margin: rem-calc(5) 0 0 0;
+            }
+
             &:hover {
                 cursor: pointer;
             }

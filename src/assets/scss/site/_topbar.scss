@@ -17,6 +17,14 @@
     }
 }
 
+.top-bar {
+    .has-form {
+        & > .button {
+            top: $topbar-button-top;
+        }
+    }
+}
+
 // Switch between the mobile menu (tab-bar) and desktop menu (topbar) based on a custom $topbar-breakpoint value.
 // The $topbar-breakpoint can be edited in _custom-settings.scss.
 

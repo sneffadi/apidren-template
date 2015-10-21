@@ -55,12 +55,18 @@ $body-font-style: normal;
 $header-font-weight: 300;
 $header-text-rendering: optimizeLegibility;
 
+/*==============================
+=            TOPBAR            =
+==============================*/
+
 // Set the link colors and styles for top-level nav
 $topbar-link-weight: bold;
 $topbar-link-color: $white;
 $topbar-link-color-hover: $white;
 $topbar-link-color-active: $white;
 $topbar-link-color-active-hover: $white;
+$topbar-input-height: auto;
+$topbar-button-top: rem-calc(7);
 
 //$topbar-link-bg: $topbar-bg;
 $topbar-link-bg-hover: $jet;
