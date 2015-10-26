@@ -112,3 +112,138 @@ img.alignright {
         padding: 0 0 0 0 !important;
     }
 }
+#testimonials {
+    .testimonial {
+        img.test {
+            width:100%;
+            height:rem-calc(200);
+        }
+        p.name {
+            text-align:right;
+            font-weight:700;
+        }
+    }
+}
+.row.content {
+    .buytable {
+        margin-bottom:rem-calc(20);
+        .buy {
+            border:$buytable-border solid rem-calc(3);
+            -moz-border-radius: rem-calc(7);
+            -webkit-border-radius: rem-calc(7);
+            -khtml-border-radius: rem-calc(7);
+            border-radius: rem-calc(7);
+            @media #{$small-only} {
+                margin:0;
+            }
+            .row {
+                padding:rem-calc(5) rem-calc(10);
+            }
+            &:last-child {
+                margin-right:0;
+            }
+            button.products {
+                background:transparent;
+                width:100%;
+                max-height:rem-calc(246);
+                padding:rem-calc(15) rem-calc(5);
+                img {
+                    display:block;
+                    margin:0 auto;
+                }
+            }
+            .priceWrap {
+                font-size:rem-calc(12);
+                border-top:rem-calc(1) solid $buytable-border;
+                border-bottom:rem-calc(1) solid $buytable-border;
+                font-weight:700;
+                .columns {
+                    padding:0;
+                }
+                .columns.savings {
+                    text-align:right;
+                    color:$secondary-color;
+                }
+            }
+            .price,.bottle {
+                background:#F0F0F0;
+                text-align:center;
+            }
+            .price {
+                font-size:rem-calc(66);
+                font-weight:900;
+                line-height:1;
+                sup {
+                    font-size:50%;
+                }
+            }
+            .bottle {
+                border-top:rem-calc(1) solid $buytable-border;
+                border-bottom:rem-calc(1) solid $buytable-border;
+            }
+            .bonusWrap {
+                min-height:rem-calc(62);
+                .buy-bonus {
+                    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAMAAADarb8dAAAAP1BMVEUAAADOKkjOKkjOKkjOKkjOKkjOKkjOKkjOKkjOKkjOKkjOKkjOKkjOKkjOKkjOKkjOKkjOKkjOKkjOKkjOKkjJ6mv/AAAAFHRSTlMA+/KH18geDn1hK61yTEMDtKWQNl3q1LMAAABeSURBVAjXTY5JDoAwDANJoUBXtvn/W1ErtbJPGSuJvaiq4ZV3h0XhY4NTFxL4SziD24U/g9CndR0P7s4nNOeZB4nmFCCPsOZ4SYgOQCsVA3glMRi4Y1Gnd1bVbXb8ATGmBLGGdQ6rAAAAAElFTkSuQmCC)no-repeat;
+                    background-position: rem-calc(15) rem-calc(4);
+                    padding-left:rem-calc(35);
+                    font-size:rem-calc(14);
+                }
+            }
+            button.addtoCart.radius {
+                display:block;
+                margin:rem-calc(8) auto;
+                font-size:rem-calc(20);
+                width:80%;
+                @media #{$small-only} {
+                    width:100%;
+                }
+            }
+        }
+        .row.buy-head {
+            text-transform:uppercase;
+            font-size:rem-calc(24);
+            color:$white;
+            background:$secondary-color;
+            font-weight:700;
+            text-align: center;
+            -moz-border-top-right-radius: rem-calc(3);
+            -webkit-border-top-right-radius: rem-calc(3);
+            -khtml-border-top-right-radius: rem-calc(3);
+            border-top-right-radius: rem-calc(3);
+            -moz-border-top-left-radius: rem-calc(3);
+            -webkit-border-top-left-radius: rem-calc(3);
+            -khtml-border-top-left-radius: rem-calc(3);
+            border-top-left-radius: rem-calc(3);
+        }
+        .row.buy-head.mostPopular {
+            background:$primary-color;
+        }
+    }
+    p.q {
+        font-weight:700;
+        margin-bottom:rem-calc(10);
+    }
+    .emailTrigger {
+        cursor:pointer;
+    }
+}
+.payment {
+    color:#555;
+    text-align:center;
+    .fa {
+        font-size:rem-calc(30);
+    }
+}
+.row.content.noPadding {
+    padding:0;
+} 
+.row.cards {
+    margin-top:rem-calc(30);
+    margin-bottom:rem-calc(30);
+    .columns+.columns {
+        img {
+            float:right;
+        }
+    }
+}
