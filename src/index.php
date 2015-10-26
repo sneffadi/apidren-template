@@ -12,6 +12,22 @@ get_header(); ?>
 
 
 ?>
+        <div class="row">
+            <div class="large-6 hide-for-small columns">
+                <img src="assets/images/abidexin-banner.png">
+            </div>
+            <div class="large-6 small-12 columns banner">
+                <h1>Discover a <span>Thinner,</span> Happier You!</h1>
+                <h3>The #1 Diet Pill 3 Years Straight</h3>
+                <ul>
+                    <li>Reduces Unwanted Body Fat</li>
+                    <li>Curbs Hunger Cravings to Make Eating Less Easier</li>
+                    <li>Increases Energy and Focus Without the Jitters</li>
+                    <li>90-Day, 100% Money Back Guarantee</li>
+                </ul>
+                <a href="#buy" class="button small radius">See Pricing</a>
+            </div>
+        </div>
         <div id="testimonials">
             <h2>Testimonials</h2>
             <div class="row testimonial">
@@ -142,7 +158,7 @@ get_header(); ?>
                 </div> <!-- / .columns -->
             </div> <!-- / .row -->
         </div> <!-- /#faq  -->
-        <div class="row content">
+        <div class="row content buy">
             <h2>Order <?php echo $productName ?> Today!</h2>
             <div class="large-12 columns large-centered">
             <div class="row buytable" id="buy">
@@ -181,7 +197,7 @@ get_header(); ?>
                     <input name="add" type="hidden" value="apidren1">
                 </form>
             </div><!-- /.buy1 -->
-            
+
             <div class="small-12 large-4 columns buy buy2">
                 <div class="row buy-head mostPopular">
                     Most Popular

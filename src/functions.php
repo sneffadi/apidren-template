@@ -9,7 +9,8 @@
         include ABSPATH . "parts/off-canvas-menu.php";
     }
     function get_menu() {
-        include ABSPATH . "parts/top-bar.php";
+        //include ABSPATH . "parts/top-bar.php"; //top nav with dropdown
+        include ABSPATH . "parts/top-bar2.php"; //top nav without dropdown
     }
     function get_ga( $gaID = null ) {
         global $gaID;

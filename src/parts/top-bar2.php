@@ -1,23 +1,22 @@
 <div class="top-bar-container contain-to-grid">
-    <nav class="top-bar contain-to-grid" data-topbar role="navigation">
+<div class="row">
+    <nav class="top-bar" data-topbar="">
         <ul class="title-area">
             <li class="name">
-                <h1><a href="#">Logo</a></h1>
+                <h1>
+                    <a href="#">
+                        logo
+                    </a>
+                </h1>
             </li>
-            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+            <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
         </ul>
         <section class="top-bar-section">
             <!-- Right Nav Section -->
             <ul class="right">
-                <li class="divider"></li>
-                <li class="has-dropdown">
-                    <a href="#">Site Resources</a>
-                    <ul class="dropdown">
-                        <li><a href="#">Ingredients</a></li>
-                        <li><a href="#">Testimonials</a></li>
-                        <li><a href="javascript:void(0);" onclick="olark('api.box.expand')">Live Chat</a></li>
-                        <li><a href="#" data-reveal-id="myModal">Contact Us</a>
+                <li class="help"><a href="javascript:void(0);" onclick="olark('api.box.expand')">Live Chat</a></li>
+                <li><a href="tel:866.917.0541">866.917.0541</a></li>
+                <li><a href="#" data-reveal-id="myModal">Contact Us</a>
                     <div id="myModal" class="reveal-modal medium" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
                       <div id="contact-form">
                         <h2>Contact Us</h2>
@@ -94,18 +93,11 @@
                         </div><!--end of div#feedback-->
 
                         </div><!--end of div#contact-form-->
-                    </div></li>
-                    </ul>
+                    </div>
                 </li>
-                <li class="divider"></li>
-                <li><a href="#">McAfee</a></li>
-                <li class="divider"></li>
-                <li><a href="tel:866.917.0541">866.917.0541</a></li>
-                <li class="divider"></li>
-                <li class="has-form">
-                    <a href="#buy" class="button">See Pricing</a>
-                </li>
+                <li class="has-form"><a href="#buy" class="tiny button">See Pricing</a></li>
             </ul>
         </section>
     </nav>
-</div>
+    </div>
+</div><!--/.top-bar-container-->

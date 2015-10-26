@@ -1,0 +1,32 @@
+.banner {
+	h1 {
+		font-size:rem-calc(48);	
+		line-height:1.1;
+		font-weight:700;
+		@media #{$small-only} {
+			font-size:rem-calc(45);
+		}
+		span {
+			text-transform: uppercase;
+			color:$secondary-color;
+			text-decoration: underline;
+		}
+	}
+	h3 {
+		font-weight:700;
+	}
+	ul {
+		margin-left:0;
+		li {
+			list-style-type:none;
+			background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMBAMAAACZySCyAAAAJ1BMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADdEvm1AAAADHRSTlMAA6KXCZu+uKiSiYWWBopYAAAAT0lEQVQI12OAAOYSKMPmGIRmPXMITDP2nDFkcFrAwCB05pAAQ84pBkadM4pAZWc2gARAwid7zgRCFJ45KQDS4n4GKAACLDlHgQJgIUMQCQCRqhccm291kAAAAABJRU5ErkJggg==);
+			background-repeat: no-repeat;
+			background-position: 0 rem-calc(10);
+			padding-left:rem-calc(30);
+			font-size:rem-calc(20);
+		}
+	}
+	.button {
+		font-size:rem-calc(20);
+	}
+}

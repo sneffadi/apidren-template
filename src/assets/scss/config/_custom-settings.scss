@@ -58,6 +58,8 @@ $header-text-rendering: optimizeLegibility;
 /*==============================
 =            TOPBAR            =
 ==============================*/
+$topbar-border:$secondary-color; // bottom
+$topbar-color:$white; //background color
 
 // Set the link colors and styles for top-level nav
 $topbar-link-weight: bold;
@@ -68,11 +70,15 @@ $topbar-link-color-active-hover: $white;
 $topbar-input-height: auto;
 $topbar-button-top: rem-calc(7);
 
+
 //$topbar-link-bg: $topbar-bg;
 $topbar-link-bg-hover: $jet;
 $topbar-link-bg-color-hover: $jet;
 $topbar-link-bg-active: $jet;
 $topbar-link-bg-active-hover: scale-color($jet, $lightness: -14%);
+
+// $nav-format is a mixin (function) that determines the format. It accepts "dropdown"(for top-bar) or "normal"(for top-bar2).
+$nav-format: "normal";
 
 /*===========================================
 =            TESTIMONIAL SECTION            =
