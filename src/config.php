@@ -5,6 +5,9 @@
     $googlefont = "Source+Sans+Pro:400,600,700,300,900"; // example: Source+Sans+Pro:400,600,700,300
     $url =  ""; //without www
     $formURL = "https://secure." . $_SERVER['HTTP_HOST'] . "/secure-checkout/";
+    $buy1 = "test1"; //UC buy 1
+    $buy2 = "test2"; //UC buy 2
+    $buy3 = "test3"; //UC buy 2
     $productName = "Hairlastin";
     $phoneNumber = "888-697-4964";
     $hrefNumber = preg_replace("/\D/", "", $phoneNumber);

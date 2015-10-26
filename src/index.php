@@ -25,7 +25,20 @@ get_header(); ?>
                     <li>Increases Energy and Focus Without the Jitters</li>
                     <li>90-Day, 100% Money Back Guarantee</li>
                 </ul>
-                <a href="#buy" class="button small radius">See Pricing</a>
+                <a href="#buy" class="button small radius hide-for-small">See Pricing</a>
+                <div class="show-for-small-only">
+                    <form action="<?php echo $formURL ?>" method="get" id="banner-form">
+                        <select>
+                            <option value="<?php echo $buy1 ?>">1 Bottle - $XX.xx</option>
+                            <option value="<?php echo $buy2 ?>">2 Bottles - $XX.xx</option>
+                            <option value="<?php echo $buy3 ?>">3 Bottles - $XX.xx</option>
+                        </select>
+                        <button class="addtoCart radius">
+                            Buy Now
+                        </button>
+                </div>
+                    </form>
+
             </div>
         </div>
         <div id="testimonials">
