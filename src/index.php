@@ -4,42 +4,84 @@
 
 <div class="row">
     <div class="small-12 columns">
-        <?php
-
-// include 'templates/kitchen-sink.php';
-
-
-?>
-        <div class="row" id="banner">
-            <div class="large-6 hide-for-small columns">
-                <img src="<?php get_image();?>/abidexin-banner.png">
-            </div>
-            <div class="large-6 small-12 columns banner">
-                <h1>Lorem Ipsum <span>Lorem Ipsum</span> Lorem Ipsum!</h1>
-                <h3>Lorem Ipsum Lorem Ipsum Lorem Ipsum</h3>
-                <ul>
-                    <li>Lorem Ipsum Lorem Ipsum Lorem Ipsum</li>
-                    <li>Lorem Ipsum Lorem Ipsum Lorem Ipsum</li>
-                    <li>Lorem Ipsum Lorem Ipsum Lorem Ipsum</li>
-                    <li>Lorem Ipsum Lorem Ipsum Lorem Ipsum</li>
-                </ul>
-                <a href="#buy" class="button small radius hide-for-small go-to-buy-section">See Pricing</a>
-                <div class="show-for-small-only">
-                    <form action="<?php
-echo $formURL ?>" method="get" id="banner-form">
-                        <select>
-                            <option value="<?php echo $buy1 ?>">1 Bottle - $XX.xx</option>
-                            <option value="<?php echo $buy2 ?>">2 Bottles - $XX.xx</option>
-                            <option value="<?php echo $buy3 ?>">3 Bottles - $XX.xx</option>
-                        </select>
-                        <button class="addtoCart radius">
-                            Buy Now
-                        </button>
+        <?php // include 'templates/kitchen-sink.php'; ?>
+        <header>
+            <div class="row" id="banner">
+                <div class="large-6 hide-for-small columns">
+                    <img src="<?php get_image();?>/abidexin-banner.png">
                 </div>
-                    </form>
+                <div class="large-6 small-12 columns banner">
+                    <h1>Lorem Ipsum <span>Lorem Ipsum</span> Lorem Ipsum!</h1>
+                    <h3>Lorem Ipsum Lorem Ipsum Lorem Ipsum</h3>
+                    <ul>
+                        <li>Lorem Ipsum Lorem Ipsum Lorem Ipsum</li>
+                        <li>Lorem Ipsum Lorem Ipsum Lorem Ipsum</li>
+                        <li>Lorem Ipsum Lorem Ipsum Lorem Ipsum</li>
+                        <li>Lorem Ipsum Lorem Ipsum Lorem Ipsum</li>
+                    </ul>
+                    <a href="#buy" class="button small radius hide-for-small go-to-buy-section">See Pricing</a>
+                    <div class="show-for-small-only">
+                        <form action="<?php
+    echo $formURL ?>" method="get" id="banner-form">
+                            <select>
+                                <option value="<?php echo $buy1 ?>">1 Bottle - $XX.xx</option>
+                                <option value="<?php echo $buy2 ?>">2 Bottles - $XX.xx</option>
+                                <option value="<?php echo $buy3 ?>">3 Bottles - $XX.xx</option>
+                            </select>
+                            <button class="addtoCart radius">
+                                Buy Now
+                            </button>
+                    </div>
+                        </form>
 
+                </div>
             </div>
-        </div>
+        </header>
+        <div class="row" id="pitch">
+            <div class="small-12 columns">
+                <h2>Intro</h2>
+                <div class="row">
+                    <div class="small-12 medium-8 columns">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in cursus arcu. Aenean cursus faucibus eleifend. Quisque a felis scelerisque, egestas nulla sed, venenatis ligula. Aliquam arcu justo, faucibus et hendrerit ut, lacinia in nunc. Aenean non ligula eu dui feugiat lobortis. Fusce mattis urna quis dui tristique, tristique pellentesque nunc hendrerit. Proin consectetur eros tellus, eget blandit urna pharetra maximus.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in cursus arcu. Aenean cursus faucibus eleifend. Quisque a felis scelerisque, egestas nulla sed, venenatis ligula. Aliquam arcu justo, faucibus et hendrerit ut, lacinia in nunc. Aenean non ligula eu dui feugiat lobortis. Fusce mattis urna quis dui tristique, tristique pellentesque nunc hendrerit. Proin consectetur eros tellus, eget blandit urna pharetra maximus.</p>
+                    </div> <!-- / .columns -->
+                    <div class="small-12 medium-4 columns">
+                        <img src="<?php get_image();?>/feature.png">
+                    </div> <!-- / .small-3 -->
+                </div> <!-- / .row -->
+
+            </div> <!-- / .small-12 -->
+        </div> <!-- / .row -->
+        <div class="row" id="ingredients">
+            <div class="small-12 columns">
+                <h2>Ingredients</h2>
+                <div class="row">
+                    <div class="small-3 columns">
+                        <img src="<?php get_image();?>/ingredient.png">
+                    </div> <!-- / .medium-3 -->
+                    <div class="small-9 columns">
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in cursus arcu. Aenean cursus faucibus eleifend. Quisque a felis scelerisque, egestas nulla sed, venenatis ligula. Aliquam arcu justo, faucibus et hendrerit ut, lacinia in nunc. Aenean non ligula eu dui feugiat lobortis. Fusce mattis urna quis dui tristique, tristique pellentesque nunc hendrerit. Proin consectetur eros tellus, eget blandit urna pharetra maximus.</p>
+                    </div> <!-- / .medium-9 -->
+                </div> <!-- / .row -->
+                <div class="row">
+                    <div class="small-3 columns">
+                        <img src="<?php get_image();?>/ingredient.png">
+                    </div> <!-- / .medium-3 -->
+                    <div class="small-9 columns">
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in cursus arcu. Aenean cursus faucibus eleifend. Quisque a felis scelerisque, egestas nulla sed, venenatis ligula. Aliquam arcu justo, faucibus et hendrerit ut, lacinia in nunc. Aenean non ligula eu dui feugiat lobortis. Fusce mattis urna quis dui tristique, tristique pellentesque nunc hendrerit. Proin consectetur eros tellus, eget blandit urna pharetra maximus.</p>
+                    </div> <!-- / .medium-9 -->
+                </div> <!-- / .row -->
+                <div class="row">
+                    <div class="small-3 columns">
+                        <img src="<?php get_image();?>/ingredient.png">
+                    </div> <!-- / .medium-3 -->
+                    <div class="small-9 columns">
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in cursus arcu. Aenean cursus faucibus eleifend. Quisque a felis scelerisque, egestas nulla sed, venenatis ligula. Aliquam arcu justo, faucibus et hendrerit ut, lacinia in nunc. Aenean non ligula eu dui feugiat lobortis. Fusce mattis urna quis dui tristique, tristique pellentesque nunc hendrerit. Proin consectetur eros tellus, eget blandit urna pharetra maximus.</p>
+                    </div> <!-- / .medium-9 -->
+                </div> <!-- / .row -->
+
+            </div> <!-- / .small-12 -->
+        </div> <!-- / .row -->
         <div class="row" id="testimonials">
             <div class="small-12 columns">
                 <h2>Testimonials</h2>

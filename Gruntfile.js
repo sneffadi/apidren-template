@@ -144,6 +144,7 @@ module.exports = function(grunt) {
                     // Include vendor scripts
                     'src/assets/components/foundation/js/vendor/placeholder.js',
                     'src/assets/components/js-cookie/src/js.cookie.js',
+                    'src/assets/components/jquery.scrollTo/jquery.scrollTo.min.js',
                     // Foundation core
                     'src/assets/components/foundation/js/foundation/foundation.js',
                     // Pick the componenets you need in your project
@@ -163,7 +164,7 @@ module.exports = function(grunt) {
                     'src/assets/components/foundation/js/foundation/foundation.tab.js',
                     'src/assets/components/foundation/js/foundation/foundation.tooltip.js',
                     'src/assets/components/foundation/js/foundation/foundation.topbar.js',
-                    'src/assets/components/jquery.scrollTo/jquery.scrollTo.min.js',
+
                     'src/assets/javascript/custom/*.js'
                 ],
                 // Finally, concatinate all the files above into one single file
