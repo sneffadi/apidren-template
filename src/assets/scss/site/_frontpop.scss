@@ -1,0 +1,199 @@
+// Save X% color
+$save: $primary-color;
+
+// Coupon section background color
+$coupon-bg: $primary-color;
+
+// Instantly save X% color
+$coupon-description: #fff93d;
+
+$font-family: "Droid Sans", sans-serif;
+
+// Set height so modal van be vertically centered
+$modal-height: 385px;
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+#exitPop {
+    display: none;
+}
+
+#exitPop-modal {
+    font-family: $font-family;
+    font-size: 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    .underlay {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        cursor: pointer;
+        -webkit-animation: fadein 0.5s;
+        animation: fadein 0.5s;
+    }
+
+    .modal {
+        width: 676px;
+        height: $modal-height;
+        background-color: transparent;
+        z-index: 1;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        border-radius: 4px;
+        -webkit-animation: popin 0.3s;
+        animation: popin 0.3s;
+    }
+
+    .close {
+        display: block;
+        position: absolute;
+        top: 4px;
+        right: 6px;
+        color: #555;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .modal-body {
+        padding: 10px 60px 17px 60px;
+        font-size: 1em;
+        background: #f1f1f1;
+        background: radial-gradient(circle 620px at 50%, #ffffff 0%, #808080 100%);
+        position: relative;
+        border-radius: 4px 4px 0 0;
+    }
+
+    .modal-headline {
+        color: $save;
+        font-size: 114px;
+        line-height: 114px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .modal-subheadline {
+        color: #1a1a1a;
+        font-size: 49px;
+        line-height: 49px;
+        font-weight: 700;
+        text-align: center;
+        margin: 0 0 26px 0;
+    }
+
+    .modal-content {
+        color: #505050;
+        font-size: 21px;
+        line-height: 120%;
+        font-weight: 400;
+        text-align: center;
+
+        span {
+            color: #505050;
+            font-size: 22px;
+            line-height: 22px;
+            font-weight: 700;
+            text-align: center;
+        }
+    }
+
+    .modal-coupon {
+        background-color: $coupon-bg;
+        color: #fff;
+        padding: 7px 0;
+        border-radius: 0 0 4px 4px;
+
+        .couponDescription {
+            color: $coupon-description;
+            font-size: 17px;
+            font-weight: 400;
+            text-align: center;
+            margin: 0 0;
+        }
+
+        .couponCode {
+            color: #ffffff;
+            font-size: 42px;
+            line-height: 42px;
+            font-weight: 400;
+            text-align: center;
+
+            span {
+                color: #ffffff;
+                font-size: 42px;
+                line-height: 42px;
+                font-weight: 700;
+                text-align: center;
+            }
+        }
+    }
+
+    .modal-footer {
+        text-align: center;
+        padding: 8px 0;
+        z-index: 1;
+
+        p {
+            text-transform: capitalize;
+            text-decoration: underline;
+            cursor: pointer;
+            display: inline;
+            color: #888;
+            p: & hover {
+                text-decoration: underline;
+            };
+        }
+    }
+
+    sup {
+        vertical-align: super;
+        font-size: 48%;
+    }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes popin {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    85% {
+        transform: scale(1.05);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
