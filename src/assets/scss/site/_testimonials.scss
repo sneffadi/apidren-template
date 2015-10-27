@@ -1,12 +1,12 @@
 #testimonials {
     .testimonial {
-        img.test {
-            width:100%;
-            height:rem-calc(200);
-        }
-        p.name {
-            text-align:right;
-            font-weight:700;
+        img {}
+
+        p {
+            &.name {
+                text-align: right;
+                font-weight: 700;
+            }
         }
     }
 }

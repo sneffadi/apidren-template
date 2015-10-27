@@ -40,6 +40,10 @@
 }
 
 #banner-form {
+    select {
+        font-size: rem-calc(16);
+    }
+
     button {
         display: block;
         width: 100%;

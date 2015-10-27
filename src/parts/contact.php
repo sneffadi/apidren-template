@@ -1,17 +1,8 @@
 <?php include("../load.php") ?>
 <div id="contact-form">
 <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-<h2>Contact Us</h2>
-<p>Ready to Order or want to speak to customer support? Please feel free to call us toll free at <?php echo $phoneNumber ;?> or click our live chat link at the top of the page.</p>
-
-<div><strong>Send Returns To:</strong></div>
-<?php
-    echo "<div>" . $companyName . "<br>";
-    echo $addressOne . "<br>";
-    echo $addressTwo . "<br>";
-    echo $cityStateZip;
-    echo "</div>";
-?>
+<h2>Contact Support</h2>
+<p>Ready to order or want to speak to customer support? Feel free to call us toll free at <?php echo $phoneNumber ;?></p>
 
 <h2>Email:</h2>
 <p>For any questions about <?php echo $productName; ?> or your order, please don't hesitate to contact customer support by sending an email to <a href="mailto:<?php echo $supportEmail; ?>"><?php echo $supportEmail; ?></a>, or you can simply fill out the form below and we you will get a response within 1 business day.</p>
@@ -73,8 +64,17 @@
         <label for="body">Message:</label>
         <textarea name="body" id="body"><?php if(isset($_POST['body'])) echo $_POST['body']; ?></textarea>
 
-        <input type="submit" id="submit" value="Send Email">
+        <button type="submit" id="submit">Send Email</button>
     </form>
 </div><!--end of div#feedback-->
+
+<div><strong>Send Returns To:</strong></div>
+<?php
+    echo "<div>" . $companyName . "<br>";
+    echo $addressOne . "<br>";
+    echo $addressTwo . "<br>";
+    echo $cityStateZip;
+    echo "</div>";
+?>
 
 </div><!--end of div#contact-form-->

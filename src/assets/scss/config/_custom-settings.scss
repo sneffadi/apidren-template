@@ -52,8 +52,14 @@ $body-font-color: $jet;
 $body-font-family: $font-family-sans-serif;
 $body-font-weight: $font-weight-normal;
 $body-font-style: normal;
-$header-font-weight: 300;
+$header-font-weight: 700;
 $header-text-rendering: optimizeLegibility;
+
+/*======================================
+=            General Colors            =
+======================================*/
+
+$product-color: #990000;
 
 /*==============================
 =            TOPBAR            =
@@ -96,6 +102,7 @@ $faq-border-color: $mercury;
 =            BUY SECTION                     =
 =============================================*/
 $buytable-border: #E4E4E4; //color of buytable column bordres
+$middle-column-header-bg: $product-color;
 
 /*=============================================
 =            Media Queries                   =
