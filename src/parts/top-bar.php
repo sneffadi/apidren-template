@@ -26,7 +26,7 @@
                 <li><a href="tel:866.917.0541">866.917.0541</a></li>
                 <li class="divider"></li>
                 <li class="has-form">
-                    <a href="#buy" class="button">See Pricing</a>
+                    <a href="#buy" class="button go-to-buy-section">See Pricing</a>
                 </li>
             </ul>
         </section>

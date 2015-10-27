@@ -8,22 +8,22 @@ get_header(); ?>
     <div class="small-12 columns">
         <?php
 
-//php include 'templates/kitchen-sink.php';
+// include 'templates/kitchen-sink.php';
 
 
 ?>
         <div class="row">
             <div class="large-6 hide-for-small columns">
-                <img src="assets/images/abidexin-banner.png">
+                <img src="<?php get_image();?>/abidexin-banner.png">
             </div>
             <div class="large-6 small-12 columns banner">
                 <h1>Lorem Ipsum <span>Lorem Ipsum</span> Lorem Ipsum!</h1>
                 <h3>Lorem Ipsum Lorem Ipsum Lorem Ipsum</h3>
                 <ul>
                     <li>Lorem Ipsum Lorem Ipsum Lorem Ipsum</li>
-                    <li>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem</li>
-                    <li>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </li>
-                    <li>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </li>
+                    <li>Lorem Ipsum Lorem Ipsum Lorem Ipsum</li>
+                    <li>Lorem Ipsum Lorem Ipsum Lorem Ipsum</li>
+                    <li>Lorem Ipsum Lorem Ipsum Lorem Ipsum</li>
                 </ul>
                 <a href="#buy" class="button small radius hide-for-small go-to-buy-section">See Pricing</a>
                 <div class="show-for-small-only">
@@ -72,10 +72,8 @@ get_image(); ?>" class="test">
                     <img src="<?php
 get_image(); ?>" class="test">
                 </div>
-                <div class="small-12 large-8 columns">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in cursus arcu. Aenean cursus faucibus eleifend. Quisque a felis scelerisque, egestas nulla sed, venenatis ligula. Aliquam arcu justo, faucibus et hendrerit ut, lacinia in nunc. Aenean non ligula eu dui feugiat lobortis. Fusce mattis urna quis dui tristique, tristique pellentesque nunc hendrerit. Proin consectetur eros tellus, eget blandit urna pharetra maximus.</p>
-                    <p class="name">- John Doe</p>
-                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in cursus arcu. Aenean cursus faucibus eleifend. Quisque a felis scelerisque, egestas nulla sed, venenatis ligula. Aliquam arcu justo, faucibus et hendrerit ut, lacinia in nunc. Aenean non ligula eu dui feugiat lobortis. Fusce mattis urna quis dui tristique, tristique pellentesque nunc hendrerit. Proin consectetur eros tellus, eget blandit urna pharetra maximus.</p>
+                <p class="name">- John Doe</p>
             </div>
             <div class="row testimonial">
                 <div class="small-12 large-4 columns">
@@ -90,15 +88,21 @@ get_image(); ?>" class="test">
         </div> <!-- /#testimonials  -->
 
         <div id="faq" class="expandable">
-            <h2>Frequently Asked Questions  <span class="show-hide-all" data-text-swap="Hide All [-]" data-text-original="Show All [+]"></span></h2>
-
+            <div class="row">
+            <div class="small-12 medium-9 columns">
+                <h2>Frequently Asked Questions</h2>
+            </div> <!-- / .small-9 -->
+            <div class="small-12 medium-3 columns">
+                <div class="show-hide-all" data-text-swap="Hide All [-]" data-text-original="Show All [+]"></div>
+            </div> <!-- / .small-12 -->
+            </div> <!-- / .row -->
             <div class="row">
                 <div class="small-12 medium-6 columns">
                     <h5>Product Questions</h5>
                     <div class="q-a">
                         <div class="q">
                             Question?
-                            <span class="show-hide" data-text-swap="[-]" data-text-original="[+]"></span>
+                            <span class="show-hide"></span>
                         </div> <!-- / .qu -->
                         <div class="a">
                             Answer
@@ -107,7 +111,7 @@ get_image(); ?>" class="test">
                     <div class="q-a">
                         <div class="q">
                             Question?
-                            <span class="show-hide" data-text-swap="[-]" data-text-original="[+]"></span>
+                            <span class="show-hide"></span>
                         </div> <!-- / .qu -->
                         <div class="a">
                             Answer
@@ -116,7 +120,7 @@ get_image(); ?>" class="test">
                     <div class="q-a">
                         <div class="q">
                             Question?
-                            <span class="show-hide" data-text-swap="[-]" data-text-original="[+]"></span>
+                            <span class="show-hide"></span>
                         </div> <!-- / .qu -->
                         <div class="a">
                             Answer
@@ -125,7 +129,7 @@ get_image(); ?>" class="test">
                     <div class="q-a">
                         <div class="q">
                             Question?
-                            <span class="show-hide" data-text-swap="[-]" data-text-original="[+]"></span>
+                            <span class="show-hide"></span>
                         </div> <!-- / .qu -->
                         <div class="a">
                             Answer

@@ -1,6 +1,9 @@
 jQuery(document).ready(function($) {
+    $("#faq.expandable").find(".show-hide").data("text-swap","[-]").data("text-original","[+]");
+    var original = $("#faq.expandable").find(".show-hide").data("text-original"),
+        swap = $("#faq.expandable").find(".show-hide").data("text-swap");
     $("#faq.expandable").find(".show-hide-all").text($("#faq").find(".show-hide-all").data("text-original"));
-    $("#faq.expandable").find(".show-hide").text($("#faq").find(".show-hide").data("text-original"));
+    $("#faq.expandable").find(".show-hide").text(original);
     $("#faq.expandable").find(".q-a").on("click", function() {
         var el = $(this).find(".show-hide");
         if (el.text() == el.data("text-swap")) {
