@@ -12,4 +12,4 @@ jQuery(document).ready(function($) {
     });
 });
 
-jQuery(function() { _exitPop.init("parts/frontpop.html"); });
+jQuery(function() { _exitPop.init("parts/frontpop.html","couponname"); });

@@ -143,7 +143,7 @@ module.exports = function(grunt) {
                 'src': [
                     // Include vendor scripts
                     'src/assets/components/foundation/js/vendor/placeholder.js',
-                    'src/assets/components/foundation/js/vendor/jquery.cookie.js',
+                    'src/assets/components/js-cookie/src/js.cookie.js',
                     // Foundation core
                     'src/assets/components/foundation/js/foundation/foundation.js',
                     // Pick the componenets you need in your project
