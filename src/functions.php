@@ -12,6 +12,10 @@
         //include ABSPATH . "parts/top-bar.php"; //top nav with dropdown
         include ABSPATH . "parts/top-bar2.php"; //top nav without dropdown
     }
+    function get_image() {
+        global $url;
+        echo $url . "/assets/images";
+    }
     function get_ga( $gaID = null ) {
         global $gaID;
         if (!empty($gaID)) { ?>

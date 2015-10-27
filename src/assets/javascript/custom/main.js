@@ -8,7 +8,7 @@ jQuery(document).ready(function($) {
         margin: true,
     });
     $(".go-to-buy-section").on("click", function() {
-        $.scrollTo("#buy-section");
+        $.scrollTo("#buy");
     });
 });
 

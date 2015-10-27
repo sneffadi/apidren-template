@@ -58,8 +58,8 @@ $header-text-rendering: optimizeLegibility;
 /*==============================
 =            TOPBAR            =
 ==============================*/
-$topbar-border:$secondary-color; // bottom
-$topbar-color:$white; //background color
+$topbar-border: $secondary-color; // bottom
+$topbar-color: $white; //background color
 
 // Set the link colors and styles for top-level nav
 $topbar-link-weight: bold;
@@ -69,7 +69,6 @@ $topbar-link-color-active: $white;
 $topbar-link-color-active-hover: $white;
 $topbar-input-height: auto;
 $topbar-button-top: rem-calc(7);
-
 
 //$topbar-link-bg: $topbar-bg;
 $topbar-link-bg-hover: $jet;
@@ -93,11 +92,10 @@ $faq-format: "expandable";
 $faq-bg: $concrete;
 $faq-border-color: $mercury;
 
-
 /*=============================================
 =            BUY SECTION                     =
 =============================================*/
-$buytable-border:#E4E4E4; //color of buytable column bordres
+$buytable-border: #E4E4E4; //color of buytable column bordres
 
 /*=============================================
 =            Media Queries                   =
