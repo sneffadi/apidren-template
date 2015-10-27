@@ -282,4 +282,3 @@ _exitPop = {
     return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
   }
 };
-jQuery(function() { _exitPop.init("parts/frontpop.html"); });
