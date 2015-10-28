@@ -1,7 +1,15 @@
     </section>
     <div id="footer-container">
         <footer id="footer">
-            Footer
+            <ul class="inline-list">
+                <li><?php get_copyright();?></li>
+                <li><a href="http://product.dev/src/files/terms.php" data-reveal-ajax="true" data-reveal-id="support">Terms & Conditions</a></li>
+                <li><a href="http://product.dev/src/files/privacy.php" data-reveal-ajax="true" data-reveal-id="support">Privacy Policy</a></li>
+                <li><a href="http://product.dev/src/parts/testimonial.php" data-reveal-ajax="true" data-reveal-id="support">Testimonial Disclaimer</a></li>
+            </ul>
+            <div class="disclaimer">
+                <p><?php get_fda_disclaimer(); ?></p>
+            </div> <!-- / .disclaimer -->
         </footer>
     </div>
     <a class="exit-off-canvas"></a><!-- / .exit-off-canvas -->

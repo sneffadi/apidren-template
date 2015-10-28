@@ -18,4 +18,5 @@
     $addressOne = "4778 North 300 West";
     $addressTwo = "Suite 120";
     $cityStateZip = "Provo, UT 84604";
+    $year = date("Y");
 

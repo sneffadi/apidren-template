@@ -28,9 +28,6 @@ function displayTestimonials(number, text) {
                 $this.hide();
             });
         });
-        console.log("enough");
-    } else {
-        console.log("too many");
     }
 }
 jQuery(document).ready(function($) {

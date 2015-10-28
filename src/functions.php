@@ -69,3 +69,19 @@
             <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
         <?php }
     }
+    function get_year() {
+        global $year;
+        echo $year;
+    }
+    function get_site_name() {
+        global $host;
+        echo ucfirst($host);
+    }
+    function get_copyright(){
+         global $year, $host;
+         echo "&copy; 2014-{$year} - ";
+         get_site_name();
+    }
+    function get_fda_disclaimer(){
+        echo "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. Results in the testimonials may not be typical and your results may vary. Consult your physician before starting any diet, exercise program or supplement to avoid any health issues.";
+    }

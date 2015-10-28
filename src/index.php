@@ -1,16 +1,15 @@
 <?php require_once ("load.php"); ?>
 <?php get_header(); ?>
 
-
 <div class="row">
     <div class="small-12 columns">
         <?php // include 'templates/kitchen-sink.php'; ?>
         <header>
             <div class="row" id="banner">
-                <div class="large-6 hide-for-small columns">
+                <div class="medium-6 hide-for-small columns">
                     <img src="<?php get_image();?>/abidexin-banner.png">
                 </div>
-                <div class="large-6 small-12 columns banner">
+                <div class="small-12 medium-6 columns banner">
                     <h1>Lorem Ipsum <span>Lorem Ipsum</span> Lorem Ipsum!</h1>
                     <h3>Lorem Ipsum Lorem Ipsum Lorem Ipsum</h3>
                     <ul>
@@ -350,5 +349,4 @@
                 </div><!-- /.buy3 -->
             </div> <!-- / .small-12 -->
         </div> <!-- / .row -->
-<?php
-get_footer(); ?>
+<?php get_footer(); ?>
