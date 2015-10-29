@@ -2,7 +2,7 @@
     $gaID = "UA-XXXXXXXX-1";
     $liveChat = true;
     $typekit = ""; //add typekit id
-    $googlefont = "Source+Sans+Pro:400,600,700,300,900"; // example: Source+Sans+Pro:400,600,700,300
+    $googlefont = "Source+Sans+Pro:300,400,600,700,900"; // example: Source+Sans+Pro:400,600,700,300
     $host =  $_SERVER['HTTP_HOST']; //without www
     $url = "http://" . $_SERVER['HTTP_HOST'];
     $formURL = "https://secure." . $host . "/secure-checkout/";

@@ -2,21 +2,10 @@
     h1 {
         font-size: rem-calc(48);
         line-height: 1.1;
-        font-weight: 700;
 
         @media #{$small-only} {
             font-size: rem-calc(45);
         }
-
-        span {
-            text-transform: uppercase;
-            color: $secondary-color;
-            text-decoration: underline;
-        }
-    }
-
-    h3 {
-        font-weight: 700;
     }
 
     ul {
@@ -35,7 +24,10 @@
     }
 
     .button {
-        font-size: rem-calc(20);
+        font-size: rem-calc(24);
+        padding: rem-calc(9) 0;
+        text-transform: uppercase;
+        font-weight: $font-weight-bold;
     }
 }
 

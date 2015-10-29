@@ -20,7 +20,7 @@ function displayTestimonials(number, text) {
         testimonials = el.length;
     if (testimonials > number) {
         el.slice(number).hide();
-        el.eq(number).before("<div class=\"show-all-testimonials\"><p><a href=\"#\">" + text + "</a></p></div>");
+        el.eq(number).before("<div class=\"row\"><div class=\"small-12\"><div class=\"show-all-testimonials\"><p><a href=\"#\">" + text + "</a></p></div></div></div>");
         $("#testimonials").on("click", ".show-all-testimonials", function(e) {
             e.preventDefault();
             var $this = $(this);

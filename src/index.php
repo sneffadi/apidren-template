@@ -82,45 +82,54 @@
             </div> <!-- / .small-12 -->
         </div> <!-- / .row -->
         <div class="row" id="testimonials">
-            <div class="small-12 columns">
+            <div class=" columns">
                 <h2>Testimonials</h2>
                 <div class="row testimonial">
-                    <div class="small-12 large-4 columns">
+                    <div class="small-3 large-4 columns">
                         <img src="<?php get_image(); ?>">
                     </div>
-                    <div class="small-12 large-8 columns">
+                    <div class="small-9 large-8 columns">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in cursus arcu. Aenean cursus faucibus eleifend. Quisque a felis scelerisque, egestas nulla sed, venenatis ligula. Aliquam arcu justo, faucibus et hendrerit ut, lacinia in nunc. Aenean non ligula eu dui feugiat lobortis. Fusce mattis urna quis dui tristique, tristique pellentesque nunc hendrerit. Proin consectetur eros tellus, eget blandit urna pharetra maximus.</p>
                         <p class="name">- John Doe</p>
                     </div>
-                </div>
+                </div><!--/.row testimonial-->
                 <div class="row testimonial">
-                    <div class="small-12 large-4 columns">
+                    <div class="small-3 large-4 columns">
                         <img src="<?php get_image(); ?>">
                     </div>
-                    <div class="small-12 large-8 columns">
+                    <div class="small-9 large-8 columns">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in cursus arcu. Aenean cursus faucibus eleifend. Quisque a felis scelerisque, egestas nulla sed, venenatis ligula. Aliquam arcu justo, faucibus et hendrerit ut, lacinia in nunc. Aenean non ligula eu dui feugiat lobortis. Fusce mattis urna quis dui tristique, tristique pellentesque nunc hendrerit. Proin consectetur eros tellus, eget blandit urna pharetra maximus.</p>
                         <p class="name">- John Doe</p>
                     </div>
-                </div>
+                </div><!--/.row testimonial-->
                 <div class="row testimonial">
-                    <div class="small-12 large-4 columns">
+                    <div class="small-3 large-4 columns">
                         <img src="<?php get_image(); ?>">
                     </div>
-                    <div class="small-12 large-8 columns">
+                    <div class="small-9 large-8 columns">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in cursus arcu. Aenean cursus faucibus eleifend. Quisque a felis scelerisque, egestas nulla sed, venenatis ligula. Aliquam arcu justo, faucibus et hendrerit ut, lacinia in nunc. Aenean non ligula eu dui feugiat lobortis. Fusce mattis urna quis dui tristique, tristique pellentesque nunc hendrerit. Proin consectetur eros tellus, eget blandit urna pharetra maximus.</p>
                         <p class="name">- John Doe</p>
                     </div>
-                </div>
+                </div><!--/.row testimonial-->
                 <div class="row testimonial">
-                    <div class="small-12 large-4 columns">
+                    <div class="small-3 large-4 columns">
                         <img src="<?php get_image(); ?>">
                     </div>
-                    <div class="small-12 large-8 columns">
+                    <div class="small-9 large-8 columns">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in cursus arcu. Aenean cursus faucibus eleifend. Quisque a felis scelerisque, egestas nulla sed, venenatis ligula. Aliquam arcu justo, faucibus et hendrerit ut, lacinia in nunc. Aenean non ligula eu dui feugiat lobortis. Fusce mattis urna quis dui tristique, tristique pellentesque nunc hendrerit. Proin consectetur eros tellus, eget blandit urna pharetra maximus.</p>
                         <p class="name">- John Doe</p>
                     </div>
-                </div>
-            </div> <!-- / .small-12 -->
+                </div><!--/.row testimonial-->
+                <div class="row testimonial">
+                    <div class="small-3 large-4 columns">
+                        <img src="<?php get_image(); ?>">
+                    </div>
+                    <div class="small-9 large-8 columns">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in cursus arcu. Aenean cursus faucibus eleifend. Quisque a felis scelerisque, egestas nulla sed, venenatis ligula. Aliquam arcu justo, faucibus et hendrerit ut, lacinia in nunc. Aenean non ligula eu dui feugiat lobortis. Fusce mattis urna quis dui tristique, tristique pellentesque nunc hendrerit. Proin consectetur eros tellus, eget blandit urna pharetra maximus.</p>
+                        <p class="name">- John Doe</p>
+                    </div>
+                </div><!--/.row testimonial-->
+
         </div> <!-- /#testimonials  -->
 
         <div id="faq" class="row expandable">
@@ -214,13 +223,21 @@
                     </div> <!-- / .columns -->
                     <div class="small-12 columns">
                         <p class="contact">Still have questions?
-                            <a href="http://product.dev/src/parts/contact.php" data-reveal-ajax="true" data-reveal-id="support" >Contact Our Support Team</a>
+                            <a href="http://product.dev/src/parts/contact.php" data-reveal-ajax="true" data-reveal-id="support">Contact Our Support Team</a>
                         </p>
                         <div id="support" class="reveal-modal small" data-reveal></div><!-- / #support keep empty -->
                     </div> <!-- / .columns -->
                 </div> <!-- / .row -->
             </div> <!-- / .small-12 -->
         </div> <!-- /#faq  -->
+
+        <div class="row guarantee">
+            <div class="small-12 columns">
+                <h2>Your Order is Backed By Our 100% Money Back Guarantee!</h2>
+                <p><?php echo $productName;?> is guaranteed to give you results or your money back. If you're unsatisfied - IN ANY WAY - simply  <a href="http://product.dev/src/parts/contact.php" data-reveal-ajax="true" data-reveal-id="support">contact customer support</a> for a full refund (less shipping). The guarantee is good for one used and all unused bottles. What are you waiting for? <a href="#" class="go-to-buy-section">Get started today!</a></p>
+            </div> <!-- / .small-12 -->
+        </div> <!-- / .row -->
+
         <div class="row" id="buy">
             <div class="small-12 columns">
                 <h2>Order <?php echo $productName ?> Today!</h2>
