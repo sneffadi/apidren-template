@@ -1,8 +1,6 @@
 <?php require_once ("load.php"); ?>
 <?php get_header(); ?>
 
-<div class="row">
-    <div class="small-12 columns">
         <?php // include 'templates/kitchen-sink.php'; ?>
         <header>
             <div class="row" id="banner">
@@ -36,7 +34,8 @@
                 </div>
             </div>
         </header>
-        <div class="row" id="pitch">
+    <div id="pitch">
+        <div class="row">
             <div class="small-12 columns">
                 <h2>Intro</h2>
                 <div class="row">
@@ -51,7 +50,9 @@
 
             </div> <!-- / .small-12 -->
         </div> <!-- / .row -->
-        <div class="row" id="ingredients">
+    </div> <!-- /#pitch  -->
+    <div id="ingredients">
+        <div class="row">
             <div class="small-12 columns">
                 <h2>Ingredients</h2>
                 <div class="row">
@@ -81,8 +82,10 @@
 
             </div> <!-- / .small-12 -->
         </div> <!-- / .row -->
-        <div class="row" id="testimonials">
-            <div class=" columns">
+    </div> <!-- /#ingredients  -->
+    <div id="testimonials">
+        <div class="row">
+            <div class="small-12 columns">
                 <h2>Testimonials</h2>
                 <div class="row testimonial">
                     <div class="small-3 large-4 columns">
@@ -129,10 +132,11 @@
                         <p class="name">- John Doe</p>
                     </div>
                 </div><!--/.row testimonial-->
-
+            </div><!--/.small-12 columns-->
         </div> <!-- /#testimonials  -->
-
-        <div id="faq" class="row expandable">
+    </div> <!-- /#testimonials  -->
+    <div id="faq">
+        <div class="row expandable">
             <div class="small-12 columns">
                 <div class="row">
                     <div class="small-12 medium-9 columns">
@@ -230,15 +234,17 @@
                 </div> <!-- / .row -->
             </div> <!-- / .small-12 -->
         </div> <!-- /#faq  -->
-
-        <div class="row guarantee">
+    </div> <!-- /#faq  -->
+    <div id="guarantee">
+        <div class="row">
             <div class="small-12 columns">
                 <h2>Your Order is Backed By Our 100% Money Back Guarantee!</h2>
                 <p><?php echo $productName;?> is guaranteed to give you results or your money back. If you're unsatisfied - IN ANY WAY - simply  <a href="http://product.dev/src/parts/contact.php" data-reveal-ajax="true" data-reveal-id="support">contact customer support</a> for a full refund (less shipping). The guarantee is good for one used and all unused bottles. What are you waiting for? <a href="#" class="go-to-buy-section">Get started today!</a></p>
             </div> <!-- / .small-12 -->
         </div> <!-- / .row -->
-
-        <div class="row" id="buy">
+    </div> <!-- /#guarantee  -->
+    <div id="buy">
+        <div class="row">
             <div class="small-12 columns">
                 <h2>Order <?php echo $productName ?> Today!</h2>
                 <div class="small-12 large-4 columns buy buy1 radius">
@@ -364,6 +370,7 @@
                         <input name="add" type="hidden" value="apidren1">
                     </form>
                 </div><!-- /.buy3 -->
-            </div> <!-- / .small-12 -->
-        </div> <!-- / .row -->
+            </div><!-- /.small-12 columns -->
+        </div><!-- /.row -->
+    </div> <!-- /#buy  -->
 <?php get_footer(); ?>

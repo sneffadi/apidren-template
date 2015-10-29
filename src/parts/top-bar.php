@@ -27,6 +27,13 @@
                 <li class="divider"></li>
                 <li class="has-form">
                     <a href="#buy" class="button go-to-buy-section">See Pricing</a>
+                    <a href="<?php echo $formURL ?>" class="cart">Cart</a>
+                    <div class="order-summary">
+                        <div>Your Cart</div>
+                        <div>1 Item</div>
+                        <div>$90.00</div>
+                        <a class="button" href="<?php echo $formURL ?>">Checkout</a>
+                    </div>
                 </li>
             </ul>
         </section>

@@ -9,6 +9,12 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+h1, h2, h3, h4, h5 {
+    span {
+        color: $secondary-color;
+    }
+}
+
 // Reset margin and padding on figure element
 figure {
     margin: 0;

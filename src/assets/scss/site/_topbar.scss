@@ -14,7 +14,7 @@
 .top-bar .name {
     h1 a {
         font-weight: 500;
-        color:$body-font-color;
+        color: $body-font-color;
     }
 }
 
@@ -42,69 +42,89 @@
     }
 }
 
-
-
-
 /*top bar styles*/
 .contain-to-grid {
-    background:$topbar-color;
-    
+    background: $topbar-color;
 }
+
 nav.tab-bar {
-    margin-bottom:0;
+    margin-bottom: 0;
 }
+
 .top-bar {
-    background:$topbar-color;
+    background: $topbar-color;
 }
+
 .top-bar-section li:not(.has-form) a:not(.button):hover {
-    background:none;
-    color:$body-font-color;
+    background: none;
+    color: $body-font-color;
     text-decoration: underline;
 }
+
 .top-bar-container {
-    padding:rem-calc(10);
+    padding: rem-calc(10);
 }
+
 .top-bar-section {
     ul {
         li {
-            background:$topbar-color;
-            border-right:1px solid #d1d1d1;
+            background: $topbar-color;
+            border-right: 1px solid #d1d1d1;
+
             &:last-child {
-                border-right:none;
-                padding:0 rem-calc(10);
+                border-right: none;
+                padding: 0 rem-calc(10);
             }
         }
     }
-    ul li>a {
-        color:$body-font-color;
+
+    ul li > a {
+        color: $body-font-color;
     }
+
     li:not(.has-form) a:not(.button) {
-        background:$topbar-color;
+        background: $topbar-color;
     }
+
     .mcafee {
-        a{
-            display:block ;
+        a {
+            display: block;
         }
+
         img {
-            max-height:rem-calc(31);
+            max-height: rem-calc(31);
         }
     }
 }
+
+.top-bar-section ul li:hover:not(.has-form) > a {
+    background: none;
+    color: $body-font-color;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
 .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
-    background:$topbar-color;
-    color:$body-font-color;
+    background: $topbar-color;
+    color: $body-font-color;
 }
+
 .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
-    background:$topbar-color;
-    color:$body-font-color;
+    background: $topbar-color;
+    color: $body-font-color;
 }
+
 .top-bar-section .has-form {
-    background:none;
+    background: none;
 }
+
 @mixin nav($nav-format) {
     @if $nav-format == "dropdown" {
         .top-bar-container {
-            background:$topbar-color;
+            background: $topbar-color;
             border-bottom: 2px solid $topbar-border;
         }
     }
@@ -114,6 +134,7 @@ nav.tab-bar {
         }
     }
 }
+
 .inner-wrap {
     @include nav($nav-format);
 }

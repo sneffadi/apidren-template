@@ -1,0 +1,49 @@
+.top-bar-section {
+    ul {
+        li {
+            &.relative {
+                position: relative;
+            }
+
+            a {
+                &.cart {
+                    display: none;
+                    background: none !important;
+
+                    &:before {
+                        font-family: FontAwesome;
+                        content: "\f07a";
+                        padding-right: rem-calc(5);
+                        font-size: rem-calc(16);
+                    }
+                }
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+
+            .order-summary {
+                display: none;
+                max-height: rem-calc(200);
+
+                &.show-summary {
+                    display: inline-block;
+                    position: absolute;
+                    top: 40px;
+                    left: -32px;
+                    z-index: 100;
+                    width: rem-calc(180);
+                    padding: rem-calc(12);
+                    background: #fff;
+                    border: 1px solid #eee;
+                }
+
+                .button {
+                    width: 100%;
+                    font-weight: $font-weight-bold;
+                }
+            }
+        }
+    }
+}
