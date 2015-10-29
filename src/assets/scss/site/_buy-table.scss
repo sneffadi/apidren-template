@@ -33,7 +33,7 @@
 
         .columns.savings {
             text-align: right;
-            color: $secondary-color;
+            color: $primary-color;
         }
     }
 
@@ -68,11 +68,15 @@
                 content: "\f058";
                 font-family: FontAwesome;
             }
+
+            i {
+                color: $iron;
+            }
         }
     }
 
     button {
-        &.addtoCart {
+        &.add-to-cart {
             display: block;
             margin: rem-calc(8) auto;
             font-size: rem-calc(24);
@@ -92,7 +96,7 @@
     text-transform: uppercase;
     font-size: rem-calc(24);
     color: $white;
-    background: $secondary-color;
+    background: $primary-color;
     font-weight: 700;
     text-align: center;
     border-top-right-radius: rem-calc(3);

@@ -1,15 +1,19 @@
     </section>
     <div id="footer-container">
         <footer id="footer">
-            <ul class="inline-list">
-                <li><?php get_copyright();?></li>
-                <li><a href="files/terms.php" data-reveal-ajax="true" data-reveal-id="support">Terms & Conditions</a></li>
-                <li><a href="files/privacy.php" data-reveal-ajax="true" data-reveal-id="support">Privacy Policy</a></li>
-                <li><a href="files/testimonial.php" data-reveal-ajax="true" data-reveal-id="support">Testimonial Disclaimer</a></li>
-            </ul>
-            <div class="disclaimer">
-                <p><?php get_fda_disclaimer(); ?></p>
-            </div> <!-- / .disclaimer -->
+        <div class="row">
+            <div class="small-12 columns">
+                <ul class="inline-list">
+                    <li><?php get_copyright();?></li>
+                    <li><a href="files/terms.php" data-reveal-ajax="true" data-reveal-id="support">Terms & Conditions</a></li>
+                    <li><a href="files/privacy.php" data-reveal-ajax="true" data-reveal-id="support">Privacy Policy</a></li>
+                    <li><a href="files/testimonial.php" data-reveal-ajax="true" data-reveal-id="support">Testimonial Disclaimer</a></li>
+                </ul>
+                <div class="disclaimer">
+                    <p><?php get_fda_disclaimer(); ?></p>
+                </div> <!-- / .disclaimer -->
+            </div> <!-- / .small-12 -->
+        </div> <!-- / .row -->
         </footer>
     </div>
     <a class="exit-off-canvas"></a><!-- / .exit-off-canvas -->

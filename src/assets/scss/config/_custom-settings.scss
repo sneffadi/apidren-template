@@ -12,8 +12,10 @@ $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
 // We use these to define default font weights
-$font-weight-normal: normal !default;
-$font-weight-bold: bold !default;
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-semi-bold: 600 !default;
+$font-weight-bold: 700 !default;
 
 // Foundation color naming conventions
 $white: #FFFFFF;
@@ -39,7 +41,8 @@ $jet: #222222;
 $black: #000000;
 
 // We use these as default colors throughout
-$primary-color: #008CBA;
+$product-color: #990000;
+$primary-color: $product-color;
 $secondary-color: #e7e7e7;
 $alert-color: #f04124;
 $success-color: #43AC6A;
@@ -81,6 +84,9 @@ $topbar-link-bg-hover: $jet;
 $topbar-link-bg-color-hover: $jet;
 $topbar-link-bg-active: $jet;
 $topbar-link-bg-active-hover: scale-color($jet, $lightness: -14%);
+
+$tabbar-bg: $white;
+$tabbar-menu-icon-color: $oil;
 
 // $nav-format is a mixin (function) that determines the format. It accepts "dropdown"(for top-bar) or "normal"(for top-bar2).
 $nav-format: "normal";

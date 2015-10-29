@@ -1,5 +1,5 @@
 jQuery(document).ready(function($) {
-    $("#faq.expandable").find(".show-hide").data("text-swap","[-]").data("text-original","[+]");
+    $("#faq.expandable").find(".show-hide").data("text-swap", "[-]").data("text-original", "[+]");
     var original = $("#faq.expandable").find(".show-hide").data("text-original"),
         swap = $("#faq.expandable").find(".show-hide").data("text-swap");
     $("#faq.expandable").find(".show-hide-all").text($("#faq").find(".show-hide-all").data("text-original"));

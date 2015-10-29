@@ -23,7 +23,7 @@
                         <div>Your Cart</div>
                         <div>1 Item</div>
                         <div>$90.00</div>
-                        <a class="button" href="<?php echo $formURL ?>">Checkout</a>
+                        <a class="button radius" href="<?php echo $formURL ?>">Checkout</a>
                     </div>
                 </li>
             </ul>

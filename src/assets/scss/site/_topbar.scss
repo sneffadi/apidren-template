@@ -11,10 +11,12 @@
     border-left: 0;
 }
 
-.top-bar .name {
-    h1 a {
-        font-weight: 500;
-        color: $body-font-color;
+.top-bar, .tab-bar {
+    h1 {
+        a {
+            font-weight: $font-weight-bold;
+            color: $body-font-color;
+        }
     }
 }
 
@@ -59,10 +61,6 @@ nav.tab-bar {
     background: none;
     color: $body-font-color;
     text-decoration: underline;
-}
-
-.top-bar-container {
-    padding: rem-calc(10);
 }
 
 .top-bar-section {

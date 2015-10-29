@@ -11,9 +11,6 @@ jQuery(document).ready(function($) {
         $.scrollTo("#buy");
     });
 });
-jQuery(function() {
-    _exitPop.init("parts/frontpop.html");
-});
 
 function displayTestimonials(number, text) {
     var el = $('#testimonials').find(".testimonial"),
@@ -31,5 +28,18 @@ function displayTestimonials(number, text) {
     }
 }
 jQuery(document).ready(function($) {
-    displayTestimonials(3, "Read more testimonials [+]")
+    _exitPop.init("parts/frontpop.html");
+    displayTestimonials(3, "Read more testimonials [+]");
+    initCart("XPI2", "https://secure.xpisupplements.com/secure-checkout/", "product.dev");
+});
+
+jQuery(document).ready(function($) {
+    $('.add-to-cart').on('click', function(event) {
+        event.preventDefault();
+        $this = $(this);
+        $this.html('<i class="fa fa-spinner fa-spin"></i>');
+        setTimeout(function(){
+            $this.closest("form").submit();
+        }, 500);
+    });
 });
