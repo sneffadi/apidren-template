@@ -51,6 +51,19 @@ function initCart(merchantId, cartUrl, domain) {
                 app.functions.addCoupon(coupon[0]);
             }
             app.views.renderCart();
+            var cartEl = $(".top-bar-section").find(".cart"),
+                seePricing = $(".top-bar-section").find(".go-to-buy-section"),
+                cartItems = app.data.cart.items.length;
+            if (cartItems > 0) {
+                seePricing.hide().closest("li").removeClass('has-form');
+                cartEl.append(" (" + cartItems + ")");
+                cartEl.fadeIn();
+                cartEl.closest("li").hover(function() {
+                $(this).find(".order-summary").toggleClass('show-summary');
+                $(this).toggleClass('relative');
+            });
+            };
+
         });
     };
     app.functions.addItem = function(itemId, quantity, callback, el) {
@@ -151,17 +164,5 @@ function initCart(merchantId, cartUrl, domain) {
     };
     $(document).ready(function() {
         app.functions.getCart();
-        var cart = $(".top-bar-section").find(".cart"),
-            seePricing = $(".top-bar-section").find(".go-to-buy-section"),
-            cartItems = app.data.cart.items.length;
-        if (cartItems > 0) {
-            seePricing.hide().closest("li").removeClass('has-form');
-            cart.append(" (" + cartItems + ")");
-            cart.fadeIn();
-        };
-        cart.closest("li").hover(function() {
-            $(this).find(".order-summary").toggleClass('show-summary');
-            $(this).toggleClass('relative');
-        });
     });
 }

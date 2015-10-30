@@ -1,26 +1,10 @@
-<!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="robots" content="noindex">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
+<h3>Testimonial Disclaimer</h3>
+<p><strong>In accordance with the FTC guidelines concerning the use of endorsements and testimonials in advertising, please be aware of the following:</strong></p>
 
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+<p>Testimonials appearing on this website are received via text, audio or video submission. They are individual experiences, reflecting the real life experiences of those who used our products and/or services. However, individual results may vary. We do not claim, nor should the reader assume, that any individual experience recounted are typical or representative of what any other consumer might experience. Testimonials are not necessarily representative of what anyone else using our products and/or services may experience. The people giving testimonials on this website may have been compensated with free products in return for their testimonials.</p>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<p>The testimonials displayed (via text, audio and/or video) are given verbatim except for grammatical or typing error corrections. Some testimonials may have been edited for clarity, or shortened in cases where the original testimonial included extraneous information of no relevance to the general public.</p>
 
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-XXXXXXXX-1', 'auto');
-            ga('send', 'pageview');
-        </script>
-    </body>
-</html>
+<p>The owner of this website is not responsible for the opinions or comments posted on this website, and does not necessarily share the opinions, views or commentary of postings on this website. All opinions expressed are strictly the views of the poster or reviewer. All testimonials are reviewed for authenticity before they are posted for public viewing.<p>
+
+<p>Testimonials on this website are not intended, nor should they be construed, as claims that the products or services mentioned can be used to diagnose, treat, cure, mitigate or prevent any disease. No testimonial has been clinically proven or evaluated, and no medical claims whatsoever were made.</p>

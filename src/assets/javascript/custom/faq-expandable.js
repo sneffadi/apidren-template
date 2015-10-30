@@ -1,4 +1,5 @@
 jQuery(document).ready(function($) {
+    $("#faq.expandable").find(".q").append("<span class=\"show-hide\"></span>");
     $("#faq.expandable").find(".show-hide").data("text-swap", "[-]").data("text-original", "[+]");
     var original = $("#faq.expandable").find(".show-hide").data("text-original"),
         swap = $("#faq.expandable").find(".show-hide").data("text-swap");

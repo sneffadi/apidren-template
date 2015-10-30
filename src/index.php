@@ -44,7 +44,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in cursus arcu. Aenean cursus faucibus eleifend. Quisque a felis scelerisque, egestas nulla sed, venenatis ligula. Aliquam arcu justo, faucibus et hendrerit ut, lacinia in nunc. Aenean non ligula eu dui feugiat lobortis. Fusce mattis urna quis dui tristique, tristique pellentesque nunc hendrerit. Proin consectetur eros tellus, eget blandit urna pharetra maximus.</p>
                     </div> <!-- / .columns -->
                     <div class="small-12 medium-4 columns">
-                        <img src="<?php get_image();?>/feature.png">
+                        <img src="<?php get_image();?>/">
                     </div> <!-- / .small-3 -->
                 </div> <!-- / .row -->
 
@@ -57,7 +57,7 @@
                 <h2>Ingredients</h2>
                 <div class="row">
                     <div class="small-3 columns">
-                        <img src="<?php get_image();?>/ingredient.png">
+                        <img src="<?php get_image();?>/">
                     </div> <!-- / .medium-3 -->
                     <div class="small-9 columns">
                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in cursus arcu. Aenean cursus faucibus eleifend. Quisque a felis scelerisque, egestas nulla sed, venenatis ligula. Aliquam arcu justo, faucibus et hendrerit ut, lacinia in nunc. Aenean non ligula eu dui feugiat lobortis. Fusce mattis urna quis dui tristique, tristique pellentesque nunc hendrerit. Proin consectetur eros tellus, eget blandit urna pharetra maximus.</p>
@@ -65,7 +65,7 @@
                 </div> <!-- / .row -->
                 <div class="row">
                     <div class="small-3 columns">
-                        <img src="<?php get_image();?>/ingredient.png">
+                        <img src="<?php get_image();?>/">
                     </div> <!-- / .medium-3 -->
                     <div class="small-9 columns">
                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in cursus arcu. Aenean cursus faucibus eleifend. Quisque a felis scelerisque, egestas nulla sed, venenatis ligula. Aliquam arcu justo, faucibus et hendrerit ut, lacinia in nunc. Aenean non ligula eu dui feugiat lobortis. Fusce mattis urna quis dui tristique, tristique pellentesque nunc hendrerit. Proin consectetur eros tellus, eget blandit urna pharetra maximus.</p>
@@ -73,7 +73,7 @@
                 </div> <!-- / .row -->
                 <div class="row">
                     <div class="small-3 columns">
-                        <img src="<?php get_image();?>/ingredient.png">
+                        <img src="<?php get_image();?>/">
                     </div> <!-- / .medium-3 -->
                     <div class="small-9 columns">
                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in cursus arcu. Aenean cursus faucibus eleifend. Quisque a felis scelerisque, egestas nulla sed, venenatis ligula. Aliquam arcu justo, faucibus et hendrerit ut, lacinia in nunc. Aenean non ligula eu dui feugiat lobortis. Fusce mattis urna quis dui tristique, tristique pellentesque nunc hendrerit. Proin consectetur eros tellus, eget blandit urna pharetra maximus.</p>
@@ -312,7 +312,6 @@
                         <div class="q-a">
                             <div class="q">
                                 Question?
-                                <span class="show-hide"></span>
                             </div> <!-- / .qu -->
                             <div class="a">
                                 Answer
@@ -321,7 +320,6 @@
                         <div class="q-a">
                             <div class="q">
                                 Question?
-                                <span class="show-hide"></span>
                             </div> <!-- / .qu -->
                             <div class="a">
                                 Answer
@@ -330,7 +328,6 @@
                         <div class="q-a">
                             <div class="q">
                                 Question?
-                                <span class="show-hide"></span>
                             </div> <!-- / .qu -->
                             <div class="a">
                                 Answer
@@ -339,7 +336,6 @@
                         <div class="q-a">
                             <div class="q">
                                 Question?
-                                <span class="show-hide"></span>
                             </div> <!-- / .qu -->
                             <div class="a">
                                 Answer
@@ -351,7 +347,6 @@
                         <div class="q-a">
                             <div class="q">
                                 Question?
-                                <span class="show-hide"></span>
                             </div> <!-- / .qu -->
                             <div class="a">
                                 Answer
@@ -360,7 +355,6 @@
                         <div class="q-a">
                             <div class="q">
                                 Question?
-                                <span class="show-hide"></span>
                             </div> <!-- / .qu -->
                             <div class="a">
                                 Answer
@@ -369,7 +363,6 @@
                         <div class="q-a">
                             <div class="q">
                                 Question?
-                                <span class="show-hide"></span>
                             </div> <!-- / .qu -->
                             <div class="a">
                                 Answer
@@ -378,7 +371,6 @@
                         <div class="q-a">
                             <div class="q">
                                 Question?
-                                <span class="show-hide"></span>
                             </div> <!-- / .qu -->
                             <div class="a">
                                 Answer
