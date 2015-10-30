@@ -1,3 +1,4 @@
+<?php require_once ("../load.php"); ?>
 <h3>Testimonial Disclaimer</h3>
 <p><strong>In accordance with the FTC guidelines concerning the use of endorsements and testimonials in advertising, please be aware of the following:</strong></p>
 
