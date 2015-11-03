@@ -9,7 +9,7 @@
                 </div>
                 <div class="small-12 medium-6 columns">
                     <h1>Lorem Ipsum <span>Lorem Ipsum</span> Lorem Ipsum!</h1>
-                    <h3>Lorem Ipsum Lorem Ipsum Lorem Ipsum</h3>
+                    <h3>Lorem Ipsum Lorem Ipsum Lorem</h3>
                     <ul>
                         <li>Lorem Ipsum Lorem Ipsum Lorem Ipsum</li>
                         <li>Lorem Ipsum Lorem Ipsum Lorem Ipsum</li>

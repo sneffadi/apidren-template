@@ -15,7 +15,7 @@
             <!-- Right Nav Section -->
             <ul class="right">
                 <li><a href="tel:<?php global $phoneNumber; echo $phoneNumber;?>"><?php echo $phoneNumber;?></a></li>
-                <li><a href="/parts/contact.php" data-reveal-ajax="true" data-reveal-id="support" >Contact Us</a></li>
+                <li><a href="parts/contact.php" data-reveal-ajax="true" data-reveal-id="support" >Contact Us</a></li>
                 <li class="has-form">
                     <a href="#buy" class="button go-to-buy-section">See Pricing</a>
                     <a href="<?php echo $formURL ?>" class="cart">Cart</a>
