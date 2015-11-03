@@ -2,10 +2,10 @@
 <p>Last Updated and Effective: October 01, 2014</p>
 <h1>Privacy Policy</h1>
 <h3>Introduction</h3>
-<p>Welcome to the Abidexin.com website (the "Website"). This privacy policy is
+<p>Welcome to the <?php echo $host; ?> website (the "Website"). This privacy policy is
 a full disclosure and explanation of practices regarding the collection, use,
 and disclosure of information transmitted on the Website or through other
-related services of Nutripharm, LLC ("Company", "we", and "us"). Company is
+related services of <?php echo $companyName; ?> ("Company", "we", and "us"). Company is
 committed to protecting the privacy of Website users, and safeguarding such
 users' information insofar as possible. The following sets forth our privacy
 practices and policies.</p>
@@ -19,7 +19,7 @@ COMPANY'S SERVICES AT ANY TIME OR IN ANY MANNER.</p>
 children under 13, we will promptly delete such information from our databases.
 If you are a parent or guardian and discover that your child under the age of
 13 has obtained a Company account, then you may alert Company at <a href=
-"mailto:support@abidexin.com">support@abidexin.com</a> and request that we
+"mailto:<?php echo $supportEmail; ?>"><?php echo $supportEmail; ?></a> and request that we
 delete that child's personal information from our systems.</p>
 <h3>Information Collected About You and Our Use of Such Information</h3>
 <p>The following describes the types of personal and other information we may
@@ -116,13 +116,13 @@ emails, as well as emails to facilitate your access to Company's services,
 including providing you with related updates. We may not offer you the
 opportunity to opt out of receiving these communications. If you want to stop
 receiving these communications, contact use via email at <a href=
-"mailto:support@abidexin.com">support@abidexin.com</a>.</p>
+"mailto:<?php echo $supportEmail; ?>"><?php echo $supportEmail; ?></a>.</p>
 <p>However, we provide you with the opportunity to elect not to receive other
 types of communications, including emails informing you about Company's
 services and other offerings that we think will interest you. If you want to
 stop receiving these communications, click on the "Unsubscribe" link in any
 such email, or contact use via email at <a href=
-"mailto:support@abidexin.com">support@abidexin.com</a>.</p>
+"mailto:<?php echo $supportEmail; ?>"><?php echo $supportEmail; ?></a>.</p>
 <p>Be advised that we may respond with an automated message, explaining the
 steps required to opt-out. There may be a time delay between initializing the
 process of opting out and the time at which communication is discontinued.
@@ -179,11 +179,16 @@ of personal information that was shared, and the names and addresses of all
 third parties with which the information was shared in the preceding twelve
 calendar months. If you are a California resident and would like to request
 this information please submit your request in writing by electronic mail to
-<a href="mailto:support@abidexin.com">support@abidexin.com</a> or in writing
+<a href="mailto:<?php echo $supportEmail; ?>"><?php echo $supportEmail; ?></a> or in writing
 to:</p>
-<p>Attn: California Privacy Rights<br>
-4778 North 300 WestSuite 120<br>
-Provo, UT 84604</p>
+
+<p>
+Attn: California Privacy Rights<br>
+<?php echo $addressOne; ?><br />
+<?php echo $addressTwo; ?><br />
+<?php echo $cityStateZip; ?><br />
+</p>
+
 <h3>Changes to Policy</h3>
 <p>This Policy may be changed at any time and for any reason, and Company
 reserves the right to make such changes at its sole discretion. Your continued
@@ -202,8 +207,8 @@ laws governing personal data collection, use or disclosure that differ from
 United States laws or regulations, please note that through your continued use
 of the Website, which is governed by the laws of the State of Utah and the
 United States of America, this privacy policy and our Terms of Use (available
-<a data-featherlight="ajax" href="terms.html">here</a> and/or at <a href=
-"http://abidexin.com">http://abidexin.com</a>), you are transferring personal
+<a href="files/terms.php" data-reveal-ajax="true" data-reveal-id="support">here</a> and/or at <a href=
+"files/terms.php">http://<?php echo $host; ?></a>), you are transferring personal
 information to the United States of America and you consent to that transfer.
 You also consent to the adjudication of any disputes arising in connection with
 the Website in the federal and state courts of Utah County in the State of
@@ -214,4 +219,4 @@ you.</p>
 <p>If you would like to update or correct any information that you have
 provided to Company through your use of the Website or otherwise, or you have
 suggestions for improving this Policy, please send an email to <a href=
-"mailto:support@abidexin.com">support@abidexin.com</a>.</p>
+"mailto:<?php echo $supportEmail; ?>"><?php echo $supportEmail; ?></a>.</p>
