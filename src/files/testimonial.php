@@ -1,4 +1,7 @@
 <?php require_once ("../load.php"); ?>
+<a class="close-reveal-modal" aria-label="Close">&#215;</a>
+
+
 <h3>Testimonial Disclaimer</h3>
 <p><strong>In accordance with the FTC guidelines concerning the use of endorsements and testimonials in advertising, please be aware of the following:</strong></p>
 

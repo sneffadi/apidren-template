@@ -19,6 +19,7 @@
     <a class="exit-off-canvas"></a><!-- / .exit-off-canvas -->
     </div><!-- / .inner-wrap -->
 </div><!-- / .off-canvas-wrap -->
+<div id="support" class="reveal-modal medium" data-reveal></div><!-- / #support keep empty -->
 <script src="assets/javascript/foundation.js"></script>
 <?php get_ga($gaID); ?>
 <?php get_livechat(); ?>

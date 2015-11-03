@@ -1,4 +1,5 @@
 <?php require_once ("../load.php"); ?>
+<a class="close-reveal-modal" aria-label="Close">&#215;</a>
 <p>Last Updated and Effective: October 01, 2014</p>
 <h1>Privacy Policy</h1>
 <h3>Introduction</h3>
@@ -207,7 +208,7 @@ laws governing personal data collection, use or disclosure that differ from
 United States laws or regulations, please note that through your continued use
 of the Website, which is governed by the laws of the State of Utah and the
 United States of America, this privacy policy and our Terms of Use (available
-<a href="files/terms.php" data-reveal-ajax="true" data-reveal-id="support">here</a> and/or at <a href=
+<a href="files/terms.php" data-reveal-ajax="true" data-reveal-id="privacy">here</a> and/or at <a href=
 "files/terms.php">http://<?php echo $host; ?></a>), you are transferring personal
 information to the United States of America and you consent to that transfer.
 You also consent to the adjudication of any disputes arising in connection with
@@ -220,3 +221,4 @@ you.</p>
 provided to Company through your use of the Website or otherwise, or you have
 suggestions for improving this Policy, please send an email to <a href=
 "mailto:<?php echo $supportEmail; ?>"><?php echo $supportEmail; ?></a>.</p>
+<div id="privacy" class="reveal-modal medium" data-reveal></div><!-- / #support keep empty -->

@@ -17,7 +17,7 @@
                         <li><a href="#">Ingredients</a></li>
                         <li><a href="#">Testimonials</a></li>
                         <li><a href="javascript:void(0);" onclick="olark('api.box.expand')">Live Chat</a></li>
-                        <li><a href="http://product.dev/src/parts/contact.php" data-reveal-ajax="true" data-reveal-id="support" >Contact us</a></li>
+                        <li><a href="/parts/contact.php" data-reveal-ajax="true" data-reveal-id="support" >Contact us</a></li>
                     </ul>
                 </li>
                 <li class="divider"></li>

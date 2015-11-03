@@ -51,6 +51,7 @@ module.exports = function(grunt) {
                 files: {
                     'dist/parts/header.php': 'dist/parts/header.php',
                     'dist/parts/footer.php': 'dist/parts/footer.php',
+                    'dist/index.php' : 'dis/index.php'
                 },
 
                 options: {
@@ -65,6 +66,10 @@ module.exports = function(grunt) {
                     {
                         pattern: 'assets/javascript/vendor/jquery.js',
                         replacement: '//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'
+                    },
+                    {
+                        pattern: '/src',
+                        replacement: ''
                     }]
                 }
 
@@ -125,7 +130,7 @@ module.exports = function(grunt) {
                         'expand': true,
                         'cwd': 'src/files/',
                         'src': '*',
-                        'dest': 'dist/'
+                        'dest': 'dist/files/'
                     }, {
                         'src': 'src/files/.htaccess-dev',
                         'dest': 'dist/.htaccess'

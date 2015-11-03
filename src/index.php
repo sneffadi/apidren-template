@@ -5,7 +5,7 @@
         <div id="banner">
             <div class="row">
                 <div class="medium-6 hide-for-small columns">
-                    <img src="<?php get_image();?>/abidexin-banner.png">
+                    <img src="<?php get_image();?>/">
                 </div>
                 <div class="small-12 medium-6 columns">
                     <h1>Lorem Ipsum <span>Lorem Ipsum</span> Lorem Ipsum!</h1>
@@ -379,9 +379,8 @@
                     </div> <!-- / .columns -->
                     <div class="small-12 columns">
                         <p class="contact">Still have questions?
-                            <a href="http://product.dev/src/parts/contact.php" data-reveal-ajax="true" data-reveal-id="support">Contact Our Support Team</a>
+                            <a href="parts/contact.php" data-reveal-ajax="true" data-reveal-id="support">Contact Our Support Team</a>
                         </p>
-                        <div id="support" class="reveal-modal small" data-reveal></div><!-- / #support keep empty -->
                     </div> <!-- / .columns -->
                 </div> <!-- / .row -->
             </div> <!-- / .small-12 -->

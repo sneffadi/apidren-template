@@ -1,4 +1,5 @@
 <?php require_once ("../load.php"); ?>
+<a class="close-reveal-modal" aria-label="Close">&#215;</a>
 
 <p><b>Last Updated and Effective: October 30, 2013</b></p>
 
@@ -37,7 +38,7 @@
 <?php echo $cityStateZip; ?><br />
 <?php echo $companyPhone; ?></p>
 
-<p>If your questions or concerns relate to products or services offered on the Site, please access our <a href="/src/parts/contact.php" data-reveal-ajax="true" data-reveal-id="contact2"> Customer Service</a> page.</p>
+<p>If your questions or concerns relate to products or services offered on the Site, please access our <a href="parts/contact.php" data-reveal-ajax="true" data-reveal-id="terms"> Customer Service</a> page.</p>
 
 <h3>Site Conduct</h3>
 
@@ -121,7 +122,7 @@
 
 <h3>Privacy Policy</h3>
 
-<p>This Site is governed by the terms set forth in <a href="/src/parts/privacy.php" data-reveal-ajax="true" data-reveal-id="privacy2">Privacy Policy.</a> Please carefully review the Privacy Policy before using the Site. If you are unwilling to accept the Privacy Policy, please discontinue your use of the Site.</p>
+<p>This Site is governed by the terms set forth in <a href="files/privacy.php" data-reveal-ajax="true" data-reveal-id="terms">Privacy Policy.</a> Please carefully review the Privacy Policy before using the Site. If you are unwilling to accept the Privacy Policy, please discontinue your use of the Site.</p>
 
 <h3>Site Changes</h3>
 
@@ -200,7 +201,7 @@
 
 <p>All orders placed on or purchased from the Site are delivered to shipment carriers. Company shall not be held responsible for the loss or delay of any items, as the responsibility for shipment of items is transferred exclusively to the carrier.</p>
 
-<p>Please see the <a href="/src/parts/contact.php" data-reveal-ajax="true" data-reveal-id="contact2">Customer Service page</a> for more information regarding returns, refunds, guarantees, and warranties.</p>
+<p>Please see the <a href="parts/contact.php" data-reveal-ajax="true" data-reveal-id="terms">Customer Service page</a> for more information regarding returns, refunds, guarantees, and warranties.</p>
 
 <h3>Limitations of Liability</h3>
 
@@ -270,5 +271,4 @@ You agree that any claim or cause of action arising from use of the Site and/or 
 
 <p>The information communicated on the Site constitutes an electronic communication. When you communicate with us through the Site or other forms of electronic media, such as email, you are communicating with us electronically. You agree that we may communicate electronically and that such communications, as well as notices, disclosures, agreements, and other communications that we provide to you electronically are equivalent to communications in writing and shall have the same force and effect as if they were in writing, and signed by the party sending the communication.</p>
 
-<div id="contact2" class="reveal-modal small" data-reveal></div><!-- / #support keep empty -->
-<div id="privacy2" class="reveal-modal small" data-reveal></div><!-- / #support keep empty -->
+<div id="terms" class="reveal-modal medium" data-reveal></div><!-- / #support keep empty -->
