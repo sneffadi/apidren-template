@@ -62,7 +62,7 @@ $header-text-rendering: optimizeLegibility;
 =            General Colors            =
 ======================================*/
 
-$product-color: #990000;
+$brand-color: #990000;
 
 /*==============================
 =            TOPBAR            =
@@ -108,7 +108,9 @@ $faq-border-color: $mercury;
 =            BUY SECTION                     =
 =============================================*/
 $buytable-border: #E4E4E4; //color of buytable column bordres
-$middle-column-header-bg: $product-color;
+$middle-column-header-bg: $brand-color;
+$l-r-header-bg: $buytable-border;
+$l-r-header-color: $white;
 
 /*=============================================
 =            Media Queries                   =

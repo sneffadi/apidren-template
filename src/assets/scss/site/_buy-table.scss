@@ -95,17 +95,18 @@
 .buy-head {
     text-transform: uppercase;
     font-size: rem-calc(24);
-    color: $white;
-    background: $primary-color;
     font-weight: 700;
     text-align: center;
     border-top-right-radius: rem-calc(3);
     border-top-left-radius: rem-calc(3);
+    background: $l-r-header-bg;
+    color: $l-r-header-color;
 }
 
 .buy-head {
     &.mostPopular {
         background: $middle-column-header-bg;
+        color: $white;
     }
 }
 
