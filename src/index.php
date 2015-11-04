@@ -303,7 +303,7 @@
                         <h2>Frequently Asked Questions</h2>
                     </div> <!-- / .small-9 -->
                     <div class="small-12 medium-3 columns">
-                        <div class="show-hide-all" data-text-swap="Hide All [-]" data-text-original="Show All [+]"></div>
+                        <div class="show-hide-all" data-text-swap='Hide All <i class="fa fa-minus-square-o"></i>' data-text-original='Show All <i class="fa fa-plus-square-o"></i>'></div>
                     </div> <!-- / .small-12 -->
                 </div> <!-- / .row -->
                 <div class="row">
@@ -312,34 +312,34 @@
                         <div class="q-a">
                             <div class="q">
                                 Question?
-                            </div> <!-- / .qu -->
+                            </div> <!-- / .q -->
                             <div class="a">
                                 Answer
-                            </div> <!-- / .ans -->
+                            </div> <!-- / .a -->
                         </div> <!-- / .q-a -->
                         <div class="q-a">
                             <div class="q">
                                 Question?
-                            </div> <!-- / .qu -->
+                            </div> <!-- / .q -->
                             <div class="a">
                                 Answer
-                            </div> <!-- / .ans -->
+                            </div> <!-- / .a -->
                         </div> <!-- / .q-a -->
                         <div class="q-a">
                             <div class="q">
                                 Question?
-                            </div> <!-- / .qu -->
+                            </div> <!-- / .q -->
                             <div class="a">
                                 Answer
-                            </div> <!-- / .ans -->
+                            </div> <!-- / .a -->
                         </div> <!-- / .q-a -->
                         <div class="q-a">
                             <div class="q">
                                 Question?
-                            </div> <!-- / .qu -->
+                            </div> <!-- / .q -->
                             <div class="a">
                                 Answer
-                            </div> <!-- / .ans -->
+                            </div> <!-- / .a -->
                         </div> <!-- / .q-a -->
                     </div> <!-- / .columns -->
                     <div class="small-12 medium-6 columns">
@@ -347,34 +347,34 @@
                         <div class="q-a">
                             <div class="q">
                                 Question?
-                            </div> <!-- / .qu -->
+                            </div> <!-- / .q -->
                             <div class="a">
                                 Answer
-                            </div> <!-- / .ans -->
+                            </div> <!-- / .a -->
                         </div> <!-- / .q-a -->
                         <div class="q-a">
                             <div class="q">
                                 Question?
-                            </div> <!-- / .qu -->
+                            </div> <!-- / .q -->
                             <div class="a">
                                 Answer
-                            </div> <!-- / .ans -->
+                            </div> <!-- / .a -->
                         </div> <!-- / .q-a -->
                         <div class="q-a">
                             <div class="q">
                                 Question?
-                            </div> <!-- / .qu -->
+                            </div> <!-- / .q -->
                             <div class="a">
                                 Answer
-                            </div> <!-- / .ans -->
+                            </div> <!-- / .a -->
                         </div> <!-- / .q-a -->
                         <div class="q-a">
                             <div class="q">
                                 Question?
-                            </div> <!-- / .qu -->
+                            </div> <!-- / .q -->
                             <div class="a">
                                 Answer
-                            </div> <!-- / .ans -->
+                            </div> <!-- / .a -->
                         </div> <!-- / .q-a -->
                     </div> <!-- / .columns -->
                     <div class="small-12 columns">
