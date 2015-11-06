@@ -24,6 +24,7 @@
     .has-form {
         & > .button {
             top: $topbar-button-top;
+            font-weight: $font-weight-semi-bold;
         }
     }
 }

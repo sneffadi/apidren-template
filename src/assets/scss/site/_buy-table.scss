@@ -40,7 +40,7 @@
 
         .columns.savings {
             text-align: right;
-            color: $primary-color;
+            color: $brand-color;
         }
     }
 
@@ -74,6 +74,7 @@
             &:before {
                 content: "\f058";
                 font-family: FontAwesome;
+                color: $brand-color;
             }
 
             i {

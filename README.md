@@ -1,3 +1,7 @@
+# to do
+- on page nav for side banners
+- change hamburger to x when off canvas is open
+
 # SingleProductTemplate
 
 Starter theme based on Foundation 5. It's a starting point for single product sites. As time goes on, we'll separate it out into subtemplates to make development more effecient.

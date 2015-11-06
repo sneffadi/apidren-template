@@ -1,1 +1,5 @@
-#contact-form {}
+.send-email {
+    font-size: rem-calc(18);
+    font-weight: $font-weight-bold;
+    padding: rem-calc(10) rem-calc(30);
+}

@@ -64,7 +64,7 @@
         <label for="body">Message:</label>
         <textarea name="body" id="body"><?php if(isset($_POST['body'])) echo $_POST['body']; ?></textarea>
 
-        <button type="submit" id="submit" class="radius">Send Email</button>
+        <button type="submit" id="submit" class="button success radius send-email">Send Email</button>
     </form>
 </div><!--end of div#feedback-->
 
