@@ -2,9 +2,9 @@
 - on page nav for side banners
 - change hamburger to x when off canvas is open
 
-# SingleProductTemplate
+# Apidren-Template
 
-Starter theme based on Foundation 5. It's a starting point for single product sites. As time goes on, we'll separate it out into subtemplates to make development more effecient.
+Starter theme based on Foundation 5. It's a starting point for single product sites that mimic the front page of Apidren.com As time goes on, we'll separate it out into subtemplates to make development more effecient.
 
 ### Requirements
 - nodejs
@@ -14,8 +14,8 @@ Starter theme based on Foundation 5. It's a starting point for single product si
 
 ### Quick Start
 ```
-$ git clone git@bitbucket.org:unkubed/singleproductsite.git
-$ mv singleproductsite yourSiteName
+$ git clone git@bitbucket.org:unkubed/apidren-template.git
+$ mv apidren-template yourSiteName
 $ cd yourSiteName
 $ npm install
 ```
