@@ -1,8 +1,8 @@
 {
-  "name": "SingleProductTemplate",
-  "title": "Single Product Template",
+  "name": "Apidren-Template",
+  "title": "Apidren Template",
   "version": "1.0.0",
-  "description": "Single Product Template",
+  "description": "Apidren Template",
   "keywords": [
     "starter theme",
     "Foundation",
@@ -15,7 +15,7 @@
   "main": "Gruntfile.js",
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/unkubed/singleproductsite"
+    "url": "https://bitbucket.org/unkubed/apidren-template"
   },
   "devDependencies": {
     "bower": "~1.4.1",
