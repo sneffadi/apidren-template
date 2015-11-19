@@ -1,6 +1,12 @@
 // Add some whitespace between top bar and content
 .top-bar-container, .tab-bar {
-    margin-bottom: rem-calc(32);
+    .row.body-wrap {
+        margin-top:rem-calc(10);
+        padding-top:rem-calc(10);
+        border-bottom:none;
+        border-top:rem-calc(1) solid $iron;
+        padding-bottom:rem-calc(10);
+    }
 }
 
 .left-small {
@@ -21,12 +27,34 @@
 }
 
 .top-bar {
+    border-bottom:rem-calc(3) solid $brand-color;
+    height:rem-calc(60);
     .has-form {
         & > .button {
             top: $topbar-button-top;
             font-weight: $font-weight-semi-bold;
         }
     }
+}
+.top-bar.bottom {
+    border-bottom:none;
+    li:not(.has-form) a:not(.button){
+        line-height:2.5;
+    }
+    .top-bar-section {
+        ul {
+            li {
+                background:none;
+            }
+        }
+        ul li > a {
+            font-weight:400;
+        }
+    }
+}
+.top-bar.bottom li:not(.has-form) a:not(.button):hover {
+    background:none;
+    text-decoration:underline;
 }
 
 // Switch between the mobile menu (tab-bar) and desktop menu (topbar) based on a custom $topbar-breakpoint value.
@@ -49,7 +77,6 @@
 .contain-to-grid {
     background: $topbar-color;
 }
-
 nav.tab-bar {
     margin-bottom: 0;
 }
@@ -65,17 +92,6 @@ nav.tab-bar {
 }
 
 .top-bar-section {
-    ul {
-        li {
-            background: $topbar-color;
-            border-right: 1px solid #d1d1d1;
-
-            &:last-child {
-                border-right: none;
-                padding: 0 rem-calc(10);
-            }
-        }
-    }
 
     ul li > a {
         color: $body-font-color;

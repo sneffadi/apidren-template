@@ -14,6 +14,9 @@ h1, h2, h3, h4, h5 {
         color: $secondary-color;
     }
 }
+h1, h2 {
+    text-align:center;
+}
 
 // Reset margin and padding on figure element
 figure {
@@ -109,5 +112,88 @@ img.alignright {
 @media #{$xxlarge-up} {
     .no-padding-for-xxlarge-up {
         padding: 0 0 0 0 !important;
+    }
+}
+body {
+    background:$smoke;
+}
+.row.body-wrap {
+    border-right:rem-calc(1) solid $iron;
+    border-left:rem-calc(1) solid $iron;;
+    background:$white;
+}
+hr {
+    background:url("../images/single-arrow-hr.png") no-repeat;
+    width:100%;
+    height:rem-calc(27);
+    border:none;
+    margin:rem-calc(40) 0 rem-calc(40) 0;
+    @media #{$small-only} {
+        background-size: 100%; 
+        -webkit-background-size: 100%; 
+        -moz-background-size: 100%; 
+        -o-background-size: 100%; 
+        height: auto; width: 100%; 
+        padding-bottom:3.704%;
+    }
+}
+#intro {
+    ul {
+        li {
+            background:url("../images/list-check.png") 0 rem-calc(2) no-repeat;
+            list-style-type:none;
+            padding-left:rem-calc(40);
+            font-size:rem-calc(20);
+            margin-bottom:rem-calc(12); 
+            line-height:1.5;
+            @media #{$small-only} {
+                br {
+                    display:none;
+                }
+            }
+        }
+    }
+    p {
+        line-height:1.2;
+        font-size:rem-calc(14);
+    }
+}
+.jessica {
+    background:url("../images/jessica.png") no-repeat center;
+    width:rem-calc(288);
+    height:rem-calc(372);
+    margin-bottom:rem-calc(10);
+    .head-wrap {
+        width:rem-calc(108);
+        position:relative;
+        top:rem-calc(185);
+        left:rem-calc(20);
+        h3 {
+            color:$white;
+            font-size:rem-calc(40);
+            line-height:1;
+            margin-bottom:0;
+        }
+        a {
+            color:$white;
+            text-decoration:underline;
+            font-size:rem-calc(15);
+        }
+    }
+}
+.tabs .tab-title.active > a {
+    background-color:$iron;
+    color:$white;
+} 
+.tabs .tab-title > a {
+    padding:rem-calc(10);
+    border-radius:rem-calc(3);
+}
+ul.tabs {
+    li.tab-title {
+        width:rem-calc(164);
+        text-align:center;
+        margin-right:rem-calc(5);
+        
     }
 }

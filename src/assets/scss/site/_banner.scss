@@ -2,25 +2,15 @@
     h1 {
         font-size: rem-calc(48);
         line-height: 1.1;
-
+        text-align:center;
         @media #{$small-only} {
             font-size: rem-calc(45);
         }
     }
-
-    ul {
-        margin-left: 0;
-
-        li {
-            &:before {
-                content: "\f00c";
-                font-family: FontAwesome;
-                padding-right: .4em;
-            }
-
-            list-style-type: none;
-            font-size: rem-calc(20);
-        }
+    img {
+        display:block;
+        margin:0 auto rem-calc(20);
+        padding-right:rem-calc(35);
     }
 
     .button {
@@ -28,6 +18,14 @@
         padding: rem-calc(9) 0;
         text-transform: uppercase;
         font-weight: $font-weight-bold;
+        margin: 0 auto rem-calc(20);
+        @media #{$medium-up} {
+            width:35%;
+        }
+    }
+    p {
+        text-align:center;
+        font-size:rem-calc(20);
     }
 }
 

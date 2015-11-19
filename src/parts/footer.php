@@ -1,4 +1,5 @@
     </section>
+    </div> <!-- end row.body-wrap-->
     <div id="footer-container">
         <footer id="footer">
         <div class="row">

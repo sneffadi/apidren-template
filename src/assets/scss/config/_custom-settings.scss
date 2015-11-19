@@ -4,7 +4,7 @@
 */
 
 // We use this to define the width of the site
-$row-width: rem-calc(860);
+$row-width: rem-calc(732);
 
 // We use these to define default font stacks
 $font-family-sans-serif: "Source Sans Pro", sans-serif;
@@ -39,13 +39,15 @@ $tuatara: #444444;
 $oil: #333333;
 $jet: #222222;
 $black: #000000;
+$tamarillo: #9D1E17;
+$la-rioja: #9BBF14;
 
 // We use these as default colors throughout
-$brand-color: #c4254c;
+$brand-color: $tamarillo;
 $primary-color: $brand-color;
 $secondary-color: #e7e7e7;
 $alert-color: #f04124;
-$success-color: #43AC6A;
+$success-color: $la-rioja;
 $warning-color: #f08a24;
 $info-color: #a0d3e8;
 

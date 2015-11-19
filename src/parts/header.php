@@ -21,3 +21,4 @@
             <div class="inner-wrap">
                 <?php get_off_canvas_menu(); ?>
                 <?php get_menu(); ?>
+            <div class="row body-wrap collapse">

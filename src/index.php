@@ -4,22 +4,16 @@
         <?php // include 'templates/kitchen-sink.php'; ?>
         <div id="banner">
             <div class="row">
-                <div class="medium-6 hide-for-small columns">
-                    <img src="<?php get_image();?>/">
-                </div>
-                <div class="small-12 medium-6 columns">
-                    <h1>Lorem Ipsum <span>Lorem Ipsum</span> Lorem Ipsum!</h1>
-                    <h3>Lorem Ipsum Lorem Ipsum Lorem</h3>
-                    <ul>
-                        <li>Lorem Ipsum Lorem Ipsum Lorem Ipsum</li>
-                        <li>Lorem Ipsum Lorem Ipsum Lorem Ipsum</li>
-                        <li>Lorem Ipsum Lorem Ipsum Lorem Ipsum</li>
-                        <li>Lorem Ipsum Lorem Ipsum Lorem Ipsum</li>
-                    </ul>
-                    <a href="#buy" class="button small radius hide-for-small success go-to-buy-section">See Pricing</a>
+
+                <h1>Buy Apidren Direct &amp; Save!</h1>
+                <img src="<?php get_image();?>/main-bottle.png">
+                <a href="#buy" class="button small round hide-for-small success go-to-buy-section">See Pricing</a>
+
+                <div class="small-12 medium-9 medium-centered columns">
+                    <p>With no middle man, you can get Apidren <b>for as little as $36.65</b> a bottle. Plus you’ll get our famous 90 day money back guarantee.</p>
+                    <p>And for a limited time, we’ll throw in <b>Apidren 72 Hour Cleanse FREE</b> when you order 2 or more bottles of Apidren</p>
                     <div class="show-for-small-only">
-                        <form action="<?php
-    echo $formURL ?>" method="get" id="banner-form">
+                        <form action="<?php echo $formURL ?>" method="get" id="banner-form">
                             <select>
                                 <option value="<?php echo $buy1 ?>">1 Bottle - $XX.xx</option>
                                 <option value="<?php echo $buy2 ?>">2 Bottles - $XX.xx</option>
@@ -34,23 +28,56 @@
                 </div>
             </div>
         </div> <!-- /#banner  -->
+        <hr>
     <div id="intro">
         <div class="row">
-            <div class="small-12 columns">
-                <h2>Intro</h2>
-                <div class="row">
-                    <div class="small-12 medium-8 columns">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in cursus arcu. Aenean cursus faucibus eleifend. Quisque a felis scelerisque, egestas nulla sed, venenatis ligula. Aliquam arcu justo, faucibus et hendrerit ut, lacinia in nunc. Aenean non ligula eu dui feugiat lobortis. Fusce mattis urna quis dui tristique, tristique pellentesque nunc hendrerit. Proin consectetur eros tellus, eget blandit urna pharetra maximus.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in cursus arcu. Aenean cursus faucibus eleifend. Quisque a felis scelerisque, egestas nulla sed, venenatis ligula. Aliquam arcu justo, faucibus et hendrerit ut, lacinia in nunc. Aenean non ligula eu dui feugiat lobortis. Fusce mattis urna quis dui tristique, tristique pellentesque nunc hendrerit. Proin consectetur eros tellus, eget blandit urna pharetra maximus.</p>
-                    </div> <!-- / .columns -->
-                    <div class="small-12 medium-4 columns">
-                        <img src="<?php get_image();?>/">
-                    </div> <!-- / .small-3 -->
-                </div> <!-- / .row -->
-
-            </div> <!-- / .small-12 -->
+            <h2>The Benefits of Apidren</h2>
+            <div class="small-12 medium-6 columns">
+                <div class="jessica">
+                    <div class="head-wrap">
+                        <h3>Jessica Lost 40lbs!</h3>
+                        <a href="#panel3" class="anchorLink">Learn How »</a>
+                    </div>
+                </div>
+                <p>*Results in Testimonials are atypical and individual results may vary. All testimonials achieved results with a healthy diet and exercise.</p>
+            </div>
+            <div class="small-12 medium-6 columns">
+                <ul>
+                    <li><b>Reduces Unwanted Body Fat</b> <br>by boosting your metabolism</li>
+                    <li><b>Curbs Hunger Cravings</b> to make <br>eating less easier</li>
+                    <li><b>Increases Energy and Focus</b> <br>without the jitters</li>
+                    <li>Each order is backed by our <b>90 <br>Day Money Back Guarantee</b></li>
+                    <li><b>Free Shipping</b> (within US) when <br>you order 2 or more bottles</li>
+                    <li><b>Proudly Made in the USA</b></li>
+                </ul>
+            </div>
         </div> <!-- / .row -->
     </div> <!-- /#pitch  -->
+    <hr>
+    <div class="row">
+        <div class="small-12 columns">
+            <ul class="tabs" data-tab>
+              <li class="tab-title active"><a href="#panel1">Tab 1</a></li>
+              <li class="tab-title"><a href="#panel2">Tab 2</a></li>
+              <li class="tab-title"><a href="#panel3">Tab 3</a></li>
+              <li class="tab-title"><a href="#panel4">Tab 4</a></li>
+            </ul>
+            <div class="tabs-content"> 
+              <div class="content active" id="panel1">
+                <p>This is the first panel of the basic tab example. You can place all sorts of content here including a grid.</p>
+              </div>
+              <div class="content" id="panel2">
+                <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+              </div>
+              <div class="content" id="panel3">
+                <p>This is the third panel of the basic tab example. This is the third panel of the basic tab example.</p>
+              </div>
+              <div class="content" id="panel4">
+                <p>This is the fourth panel of the basic tab example. This is the fourth panel of the basic tab example.</p>
+              </div>
+            </div>
+        </div> <!-- / .columns -->
+    </div> <!-- / .row -->
     <div id="ingredients">
         <div class="row">
             <div class="small-12 columns">

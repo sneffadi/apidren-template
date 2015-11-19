@@ -1,0 +1,2 @@
+<h2>Your Order is Backed By Our 90-Day Money Back Guarantee</h2>
+<p>Apidren is guaranteed to give you results. If you're unsatisfied - IN ANY WAY - simply contact customer support for a return authorization number and instructions on how to return the product. After receipt, refunds are processed within 7-10 business days. The guarantee is good for one used and all unused bottles (minus shipping and handling). What are you waiting for? Get started today!</p>

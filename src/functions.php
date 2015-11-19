@@ -14,7 +14,8 @@
     }
     function get_image() {
         global $url;
-        echo $url . "/assets/images";
+        //echo $url . "/assets/images";
+        echo $url . "/apidren-template/src/assets/images";
     }
     function get_ga( $gaID = null ) {
         global $gaID;
