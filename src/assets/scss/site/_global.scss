@@ -191,10 +191,11 @@ hr {
 .tabs .tab-title > a {
     padding:rem-calc(10);
     border-radius:rem-calc(3);
+    width:100%;
 }
 ul.tabs {
     li.tab-title {
-        width:rem-calc(164);
+        width:rem-calc(170);
         text-align:center;
         margin-right:rem-calc(5);
         

@@ -30,10 +30,10 @@
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="parts/guarantee.php" data-reveal-ajax="true" data-reveal-id="support" >90-Day Guarantee</a></li>
-                    <li><a>FAQ</a></li>
-                    <li><a>Ingredients</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#ingredients">Ingredients</a></li>
                     <li><a href="parts/contact.php" data-reveal-ajax="true" data-reveal-id="support" >Contact us</a></li>
-                    <li><a href="#buy" class="go-to-buy-section">See Pricing</a></li>
+                    <li><a href="#buy" class="go-to-buy-section"><b>Buy Apidren</b></a></li>
                 </ul>
             </section>
         </nav>

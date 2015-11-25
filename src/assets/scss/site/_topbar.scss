@@ -45,10 +45,12 @@
         ul {
             li {
                 background:none;
+                margin:0 rem-calc(12);
             }
         }
         ul li > a {
             font-weight:400;
+            font-size:rem-calc(14);
         }
     }
 }

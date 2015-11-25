@@ -207,50 +207,7 @@
     </div> <!-- /#buy  -->
               </div>
               <div class="content" id="panel2">
-                <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
-              </div>
-              <div class="content" id="panel3">
-                <p>This is the third panel of the basic tab example. This is the third panel of the basic tab example.</p>
-              </div>
-              <div class="content" id="panel4">
-                <p>This is the fourth panel of the basic tab example. This is the fourth panel of the basic tab example.</p>
-              </div>
-            </div>
-        </div> <!-- / .columns -->
-    </div> <!-- / .row -->
-    <div id="ingredients">
-        <div class="row">
-            <div class="small-12 columns">
-                <h2>Ingredients</h2>
-                <div class="row">
-                    <div class="small-3 columns">
-                        <img src="<?php get_image();?>/">
-                    </div> <!-- / .medium-3 -->
-                    <div class="small-9 columns">
-                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in cursus arcu. Aenean cursus faucibus eleifend. Quisque a felis scelerisque, egestas nulla sed, venenatis ligula. Aliquam arcu justo, faucibus et hendrerit ut, lacinia in nunc. Aenean non ligula eu dui feugiat lobortis. Fusce mattis urna quis dui tristique, tristique pellentesque nunc hendrerit. Proin consectetur eros tellus, eget blandit urna pharetra maximus.</p>
-                    </div> <!-- / .medium-9 -->
-                </div> <!-- / .row -->
-                <div class="row">
-                    <div class="small-3 columns">
-                        <img src="<?php get_image();?>/">
-                    </div> <!-- / .medium-3 -->
-                    <div class="small-9 columns">
-                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in cursus arcu. Aenean cursus faucibus eleifend. Quisque a felis scelerisque, egestas nulla sed, venenatis ligula. Aliquam arcu justo, faucibus et hendrerit ut, lacinia in nunc. Aenean non ligula eu dui feugiat lobortis. Fusce mattis urna quis dui tristique, tristique pellentesque nunc hendrerit. Proin consectetur eros tellus, eget blandit urna pharetra maximus.</p>
-                    </div> <!-- / .medium-9 -->
-                </div> <!-- / .row -->
-                <div class="row">
-                    <div class="small-3 columns">
-                        <img src="<?php get_image();?>/">
-                    </div> <!-- / .medium-3 -->
-                    <div class="small-9 columns">
-                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in cursus arcu. Aenean cursus faucibus eleifend. Quisque a felis scelerisque, egestas nulla sed, venenatis ligula. Aliquam arcu justo, faucibus et hendrerit ut, lacinia in nunc. Aenean non ligula eu dui feugiat lobortis. Fusce mattis urna quis dui tristique, tristique pellentesque nunc hendrerit. Proin consectetur eros tellus, eget blandit urna pharetra maximus.</p>
-                    </div> <!-- / .medium-9 -->
-                </div> <!-- / .row -->
-
-            </div> <!-- / .small-12 -->
-        </div> <!-- / .row -->
-    </div> <!-- /#ingredients  -->
-    <div id="testimonials">
+                <div id="testimonials">
         <div class="row">
             <div class="small-12 columns">
                 <h2>Testimonials</h2>
@@ -302,27 +259,43 @@
             </div><!--/.small-12 columns-->
         </div> <!-- /#testimonials  -->
     </div> <!-- /#testimonials  -->
-    <div id="guarantee">
+              </div>
+              <div class="content" id="panel3">
+                <div id="ingredients">
         <div class="row">
             <div class="small-12 columns">
-                <h2>Your Order is Backed By Our 100% Money Back Guarantee!</h2>
-                <p><?php echo $productName;?> is guaranteed to give you results or your money back. If you're unsatisfied - IN ANY WAY - simply  <a href="http://product.dev/src/parts/contact.php" data-reveal-ajax="true" data-reveal-id="support">contact customer support</a> for a full refund (less shipping). The guarantee is good for one used and all unused bottles. What are you waiting for? <a href="#" class="go-to-buy-section">Get started today!</a></p>
+                <h2>Ingredients</h2>
+                <div class="row">
+                    <div class="small-3 columns">
+                        <img src="<?php get_image();?>/">
+                    </div> <!-- / .medium-3 -->
+                    <div class="small-9 columns">
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in cursus arcu. Aenean cursus faucibus eleifend. Quisque a felis scelerisque, egestas nulla sed, venenatis ligula. Aliquam arcu justo, faucibus et hendrerit ut, lacinia in nunc. Aenean non ligula eu dui feugiat lobortis. Fusce mattis urna quis dui tristique, tristique pellentesque nunc hendrerit. Proin consectetur eros tellus, eget blandit urna pharetra maximus.</p>
+                    </div> <!-- / .medium-9 -->
+                </div> <!-- / .row -->
+                <div class="row">
+                    <div class="small-3 columns">
+                        <img src="<?php get_image();?>/">
+                    </div> <!-- / .medium-3 -->
+                    <div class="small-9 columns">
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in cursus arcu. Aenean cursus faucibus eleifend. Quisque a felis scelerisque, egestas nulla sed, venenatis ligula. Aliquam arcu justo, faucibus et hendrerit ut, lacinia in nunc. Aenean non ligula eu dui feugiat lobortis. Fusce mattis urna quis dui tristique, tristique pellentesque nunc hendrerit. Proin consectetur eros tellus, eget blandit urna pharetra maximus.</p>
+                    </div> <!-- / .medium-9 -->
+                </div> <!-- / .row -->
+                <div class="row">
+                    <div class="small-3 columns">
+                        <img src="<?php get_image();?>/">
+                    </div> <!-- / .medium-3 -->
+                    <div class="small-9 columns">
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in cursus arcu. Aenean cursus faucibus eleifend. Quisque a felis scelerisque, egestas nulla sed, venenatis ligula. Aliquam arcu justo, faucibus et hendrerit ut, lacinia in nunc. Aenean non ligula eu dui feugiat lobortis. Fusce mattis urna quis dui tristique, tristique pellentesque nunc hendrerit. Proin consectetur eros tellus, eget blandit urna pharetra maximus.</p>
+                    </div> <!-- / .medium-9 -->
+                </div> <!-- / .row -->
+
             </div> <!-- / .small-12 -->
         </div> <!-- / .row -->
-    </div> <!-- /#guarantee  -->
-    <div id="bonus">
-        <div class="row">
-            <div class="small-12 columns">
-                <div class="limited-time">
-                    — Special Limited-Time Only Offer —
-                </div> <!-- / .limited-time -->
-                <h2>FREE BONUS ITEM</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in cursus arcu. Aenean cursus faucibus eleifend. Quisque a felis scelerisque, egestas nulla sed, venenatis ligula. Aliquam arcu justo, faucibus et hendrerit ut, lacinia in nunc. Aenean non ligula eu dui feugiat lobortis. Fusce mattis urna quis dui tristique, tristique pellentesque nunc hendrerit. Proin consectetur eros tellus, eget blandit urna pharetra maximus. <a href="#" class="go-to-buy-section">Get started today!</a></p>
-            </div> <!-- / .small-12 -->
-        </div> <!-- / .row -->
-    </div> <!-- /#bonus  -->
-    
-    <div id="faq" class="expandable">
+    </div> <!-- /#ingredients  -->
+              </div>
+              <div class="content" id="panel4">
+                <div id="faq" class="expandable">
         <div class="row">
             <div class="small-12 columns">
                 <div class="row">
@@ -413,4 +386,10 @@
             </div> <!-- / .small-12 -->
         </div> <!-- /#faq  -->
     </div> <!-- /#faq  -->
+              </div>
+            </div>
+        </div> <!-- / .columns -->
+    </div> <!-- / .row -->
+    
+    
 <?php get_footer(); ?>
