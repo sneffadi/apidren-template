@@ -1,4 +1,3 @@
-<?php require_once ("load.php"); ?>
     </section>
     </div> <!-- end row.body-wrap-->
     <div id="footer-container">
@@ -23,7 +22,7 @@
 </div><!-- / .off-canvas-wrap -->
 <div id="support" class="reveal-modal medium" data-reveal></div><!-- / #support keep empty -->
 <script src="assets/javascript/foundation.js"></script>
-<?php get_ga(); ?>
+<?php get_ga($gaID); ?>
 <?php get_livechat(); ?>
 </body>
 </html>

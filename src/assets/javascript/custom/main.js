@@ -43,3 +43,7 @@ jQuery(document).ready(function($) {
         }, 500);
     });
 });
+$('.off-canvas-list').on('click', 'li.mobile', function(){
+    $('.off-canvas-wrap').removeClass('move-left');
+    console.log('done');
+});

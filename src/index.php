@@ -1,4 +1,4 @@
-<?php require_once ("load.php"); ?>
+<?php include ("load.php"); ?>
 <?php get_header(); ?>
 
         <?php // include 'templates/kitchen-sink.php'; ?>
@@ -392,4 +392,4 @@
     </div> <!-- / .row -->
     
     
-<?php get_footer(); ?>
+<?php include ABSPATH . "parts/footer.php"; ?>
