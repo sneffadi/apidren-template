@@ -65,146 +65,122 @@
             <div class="tabs-content"> 
               <div class="content active" id="buy">
                 <div id="buy">
-        <div class="row collapse">
-            
-                <h2>Order <?php echo $productName ?> Direct & Save!</h2>
-                <div class="small-12 large-4 columns buy buy1 radius">
-                    <div class="row buy-head">
-                        <div class="small-12 columns">
-                        Get Started
-                        </div>
-                    </div>
-                    <form action="<?php echo $formURL ?>" method="get">
-                        <div class="row">
-                            <div class="small-12 columns products">
-                                <img src="<?php get_image(); ?>/buy1.png">
-                            </div>
-                        </div>
-                        <div class="row priceWrap">
-                            <div class="small-6 columns">
-                            Retail: $99.95
-                            </div>
-                            <div class="small-6 columns savings">
-                            $50 Savings
-                            </div>
-                        </div> <!-- / .row -->
-                        <div class="row price">
-                            <div class="small-12 columns">
-                                <sup>$</sup>49<sup>95</sup>
-                            </div>
-                        </div>
-                        <div class="row bottle">
-                            <div class="small-12 columns">1 Bottle - 30 Day Supply</div>
-                        </div>
-                        <div class="row bonusWrap">
-                            <div class="small-12 columns buy-bonus">
-                                $4.95 Flat-Rate Shipping
-                            </div>
-                        </div>
-                        <div class="row">
-                            <button class="add-to-cart radius success">
-                            Buy Now
-                            </button>
-                        </div>
-                        <input name="add" type="hidden" value="apidren1">
-                    </form>
-                </div><!-- /.buy1 -->
-                <div class="small-12 large-4 columns buy buy2 radius">
-                    <div class="row buy-head mostPopular">
-                        <div class="small-12 columns">
-                        Most Popular
-                        </div>
-                    </div>
-                    <form action="<?php echo $formURL ?>" method="get">
-                        <div class="row">
-                            <div class="small-12 columns products">
-                                <img src="<?php get_image(); ?>/buy1.png">
-                            </div>
-                        </div>
-                        <div class="row priceWrap">
-                            <div class="small-6 columns">
-                            Retail: $99.95
-                            </div>
-                            <div class="small-6 columns savings">
-                            $50 Savings
-                            </div>
-                        </div> <!-- / .row -->
-                        <div class="row price">
-                            <div class="small-12 columns">
-                                <sup>$</sup>49<sup>95</sup>
-                            </div>
-                        </div>
-                        <div class="row bottle">
-                            <div class="small-12 columns">1 Bottle - 30 Day Supply</div>
-                        </div>
-                        <div class="row bonusWrap">
-                            <div class="small-12 columns buy-bonus">
-                                Free Ground Shipping!
-                            </div>
-                            <div class="small-12 columns buy-bonus">
-                                1 Free Bottle <span data-tooltip aria-haspopup="true" class="has-tip" title="This is a tool tip. Change me!">
-                                    <i class="fa fa-question-circle"></i>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <button class="add-to-cart radius success">
-                            Buy Now
-                            </button>
-                        </div>
-                        <input name="add" type="hidden" value="apidren1">
-                    </form>
-                </div><!-- /.buy2 -->
-                <div class="small-12 large-4 columns buy buy3 radius">
-                    <div class="row buy-head">
-                        <div class="small-12 columns">
-                        Best Value
-                        </div>
-                    </div>
-                    <form action="<?php echo $formURL ?>" method="get">
-                        <div class="row">
-                            <div class="small-12 columns products">
-                                <img src="<?php get_image(); ?>/buy1.png">
-                            </div>
-                        </div>
-                        <div class="row priceWrap">
-                            <div class="small-6 columns">
-                            Retail: $99.95
-                            </div>
-                            <div class="small-6 columns savings">
-                            $50 Savings
-                            </div>
-                        </div> <!-- / .row -->
-                        <div class="row price">
-                            <div class="small-12 columns">
-                                <sup>$</sup>49<sup>95</sup>
-                            </div>
-                        </div>
-                        <div class="row bottle">
-                            <div class="small-12 columns">1 Bottle - 30 Day Supply</div>
-                        </div>
-                        <div class="row bonusWrap">
-                            <div class="small-12 columns buy-bonus">
-                                Free Ground Shipping!
-                            </div>
-                            <div class="small-12 columns buy-bonus">
-                                2 Free Bottles <span data-tooltip aria-haspopup="true" class="has-tip" title="This is a tool tip. Change me!">
-                                    <i class="fa fa-question-circle"></i>
-                                </span>
-
-                            </div>
-                        </div>
-                        <div class="row">
-                            <button class="add-to-cart radius success">
-                            Buy Now
-                            </button>
-                        </div>
-                        <input name="add" type="hidden" value="apidren1">
-                    </form>
-                </div><!-- /.buy3 -->
-            
-        </div><!-- /.row -->
-    </div> <!-- /#buy  -->
+                    <div class="row collapse">
+                        <h2>Order <?php echo $productName ?> Direct & Save!</h2>
+                        <div class="small-12 large-4 columns buy buy1 radius">
+                            <form action="<?php echo $formURL ?>" method="get">
+                                <div class="title">
+                                    Get Started
+                                </div>
+                                <div class="small-12 columns buy-wrap col1">
+                                    <a href="<?php echo $formURL ?>?add=<?php echo $buy1 ?>">
+                                        <div class="buy-image" style="height:220px;">
+                                            <img src="<?php get_image(); ?>/buy1.png">
+                                        </div>
+                                    </a>
+                                
+                                    <div class="row savings-retail collapse">
+                                        <div class="small-6 columns">
+                                            <div class="retail">
+                                                Retail $<span>99.95</span>
+                                            </div>
+                                        </div>
+                                        <div class="small-6 columns">
+                                            <div class="savings">
+                                                <strong>$<span>50.00</span></strong> <span>Savings</span>
+                                            </div> <!-- / .savings -->
+                                        </div>
+                                    </div><!-- end .row -->
+                                    <div class="price">
+                                        $<span>49.95</span>
+                                    </div> <!-- / .price -->
+                                    <div class="supply">1 Bottle - 30 Day Supply</div> <!-- / .supply -->
+                                    <div class="shipping">
+                                        Flat-Rate Shipping: $4.95
+                                    </div> <!-- / .shipping -->
+                                    <div class="bonus no-bonus">
+                                    </div> <!-- / .bonus -->
+                                    <a href="<?php echo $formURL ?>?add=<?php echo $buy1 ?>" class="button add-to-cart">Add to Cart</a>
+                                </div>
+                            </form>
+                        </div><!-- end .buy1 -->
+                        <div class="small-12 large-4 columns buy buy2 radius">
+                            <form action="<?php echo $formURL ?>" method="get">
+                                <div class="title even">
+                                    Get Started
+                                </div>
+                                <div class="small-12 columns buy-wrap col2">
+                                    <a href="<?php echo $formURL ?>?add=<?php echo $buy2 ?>">
+                                        <div class="buy-image" style="height:220px;">
+                                            <img src="<?php get_image(); ?>/buy2.png">
+                                        </div>
+                                    </a>
+                                
+                                    <div class="row savings-retail collapse">
+                                        <div class="small-6 columns">
+                                            <div class="retail">
+                                                Retail $<span>99.95</span>
+                                            </div>
+                                        </div>
+                                        <div class="small-6 columns">
+                                            <div class="savings">
+                                                <strong>$<span>50.00</span></strong> <span>Savings</span>
+                                            </div> <!-- / .savings -->
+                                        </div>
+                                    </div><!-- end .row -->
+                                    <div class="price">
+                                        $<span>49.95</span>
+                                    </div> <!-- / .price -->
+                                    <div class="supply">1 Bottle - 30 Day Supply</div> <!-- / .supply -->
+                                    <div class="shipping">
+                                        Flat-Rate Shipping: $4.95
+                                    </div> <!-- / .shipping -->
+                                    <div class="bonus no-bonus">
+                                    </div> <!-- / .bonus -->
+                                    <a href="<?php echo $formURL ?>?add=<?php echo $buy2 ?>" class="button add-to-cart">Add to Cart</a>
+                                </div>
+                            </form>
+                        </div><!-- end .buy2 -->
+                        <div class="small-12 large-4 columns buy buy3 radius">
+                            <form action="<?php echo $formURL ?>" method="get">
+                                <div class="title">
+                                    Get Started
+                                </div>
+                                <div class="small-12 columns buy-wrap col3">
+                                    <a href="<?php echo $formURL ?>?add=<?php echo $buy3 ?>">
+                                        <div class="buy-image" style="height:220px;">
+                                            <img src="<?php get_image(); ?>/buy3.png">
+                                        </div>
+                                    </a>
+                                
+                                    <div class="row savings-retail collapse">
+                                        <div class="small-6 columns">
+                                            <div class="retail">
+                                                Retail $<span>99.95</span>
+                                            </div>
+                                        </div>
+                                        <div class="small-6 columns">
+                                            <div class="savings">
+                                                <strong>$<span>50.00</span></strong> <span>Savings</span>
+                                            </div> <!-- / .savings -->
+                                        </div>
+                                    </div><!-- end .row -->
+                                    <div class="price">
+                                        $<span>49.95</span>
+                                    </div> <!-- / .price -->
+                                    <div class="supply">1 Bottle - 30 Day Supply</div> <!-- / .supply -->
+                                    <div class="shipping">
+                                        Flat-Rate Shipping: $4.95
+                                    </div> <!-- / .shipping -->
+                                    <div class="bonus no-bonus">
+                                    </div> <!-- / .bonus -->
+                                    <a href="<?php echo $formURL ?>?add=<?php echo $buy3 ?>" class="button add-to-cart">Add to Cart</a>
+                                </div>
+                            </form>
+                        </div><!-- end .buy1 -->
+                        
+                    </div><!-- /.row -->
+                </div> <!-- /#buy  -->
               </div>
               <div class="content" id="panel2">
                 <div id="testimonials">
