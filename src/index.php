@@ -56,14 +56,14 @@
     <hr>
     <div class="row">
         <div class="small-12 columns">
-            <ul class="tabs" data-tab>
-              <li class="tab-title active"><a href="#panel1">Buy Now</a></li>
+            <ul class="tabs" data-tab data-options="deep_linking:true">
+              <li class="tab-title active"><a href="#buy">Buy Now</a></li>
               <li class="tab-title"><a href="#panel2">Testimonials</a></li>
-              <li class="tab-title"><a href="#panel3">Ingredients</a></li>
+              <li class="tab-title"><a href="#ingredients">Ingredients</a></li>
               <li class="tab-title"><a href="#panel4">FAQs</a></li>
             </ul>
             <div class="tabs-content"> 
-              <div class="content active" id="panel1">
+              <div class="content active" id="buy">
                 <div id="buy">
         <div class="row collapse">
             
@@ -260,7 +260,7 @@
         </div> <!-- /#testimonials  -->
     </div> <!-- /#testimonials  -->
               </div>
-              <div class="content" id="panel3">
+              <div class="content" id="ingredients">
                 <div id="ingredients">
         <div class="row">
             <div class="small-12 columns">
