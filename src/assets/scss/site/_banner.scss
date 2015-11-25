@@ -1,4 +1,7 @@
 #banner {
+    @media #{$small-only} {
+        padding:0 rem-calc(10);
+    }
     h1 {
         font-size: rem-calc(48);
         line-height: 1.1;

@@ -119,8 +119,12 @@ body {
 }
 .row.body-wrap {
     border-right:rem-calc(1) solid $iron;
-    border-left:rem-calc(1) solid $iron;;
+    border-left:rem-calc(1) solid $iron;
     background:$white;
+    border-bottom:rem-calc(1) solid $iron;
+    @media #{$small-only} {
+        border:none;
+    }
 }
 hr {
     background:url("../images/single-arrow-hr.png") no-repeat;
@@ -198,6 +202,10 @@ ul.tabs {
         width:rem-calc(170);
         text-align:center;
         margin-right:rem-calc(5);
-        
+        @media #{$small-only} {
+            width:100%;
+            float:none;
+            margin:rem-calc(5) 0;
+        }
     }
 }

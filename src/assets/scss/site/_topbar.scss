@@ -88,9 +88,12 @@ nav.tab-bar {
 }
 
 .top-bar-section li:not(.has-form) a:not(.button):hover {
-    background: none;
+    background: none!important;
     color: $body-font-color;
     text-decoration: underline;
+}
+.top-bar-section ul li {
+    background:none;
 }
 
 .top-bar-section {
@@ -154,4 +157,7 @@ nav.tab-bar {
 
 .inner-wrap {
     @include nav($nav-format);
+}
+.top-bar-section > ul > .divider {
+    border-right-color: #CCCCCC;
 }
