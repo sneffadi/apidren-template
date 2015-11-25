@@ -9,7 +9,7 @@
     $buy1 = "test1"; //UC buy 1
     $buy2 = "test2"; //UC buy 2
     $buy3 = "test3"; //UC buy 2
-    $productName = "Hairlastin";
+    $productName = "Apidren";
     $phoneNumber = "866-917-0541";
     $hrefNumber = preg_replace("/\D/", "", $phoneNumber);
     $companyPhone = "801-319-9865"; //for company contact info (privacy policy and t&c)
