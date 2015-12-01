@@ -47,3 +47,11 @@ $('.off-canvas-list').on('click', 'li.mobile', function(){
     $('.off-canvas-wrap').removeClass('move-left');
     console.log('done');
 });
+jQuery(document).ready(function($){
+    $('#banner-form').find('select').on('change', function() {
+        var input = $(this).closest('#banner-form').find('input[type=hidden]');
+        var val = $(this).val();
+        input.attr("value",val);
+        console.log(input);
+    });
+});

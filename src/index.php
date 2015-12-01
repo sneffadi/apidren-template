@@ -18,6 +18,7 @@
                                 <option value="<?php echo $buy1 ?>">1 Bottle - $XX.xx</option>
                                 <option value="<?php echo $buy2 ?>">2 Bottles - $XX.xx</option>
                                 <option value="<?php echo $buy3 ?>">3 Bottles - $XX.xx</option>
+                                <input type="hidden" name="add" value="<?php echo $buy1 ?>">
                             </select>
                             <button class="add-to-cart radius success">
                                 Buy Now
